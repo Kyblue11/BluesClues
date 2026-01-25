@@ -15,12 +15,17 @@ export default function ABoutMe() {
           href="https://www.linkedin.com/in/aaron-lam-609bb1309/"
           target="_blank"
         >
-          Contact me on LinkedIn here!
+          Contact me on LinkedIn!
         </a>
       </div>
       <div className="flex justify-end">
         <a href="https://github.com/Kyblue11?tab=repositories" target="_blank">
-          Check out my Github projects here!
+          Check out my Github projects!
+        </a>
+      </div>
+      <div className="flex justify-end">
+        <a href="https://www.youtube.com/@kyblue11/videos" target="_blank">
+          See me talking!
         </a>
       </div>
     </>
