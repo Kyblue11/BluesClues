@@ -1,4 +1,4 @@
-interface Education {
+export interface Education {
   edu_name: string;
   edu_location: string;
   edu_period: string;
@@ -6,7 +6,7 @@ interface Education {
   edu_desc?: string;
 }
 
-interface WorkExp {
+export interface WorkExp {
   work_title: string;
   work_company_name: string;
   work_method: string;
