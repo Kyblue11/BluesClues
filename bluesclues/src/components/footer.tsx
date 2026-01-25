@@ -6,6 +6,12 @@ export default function Footer() {
           <p>
             Made by me using NextJS and hand-typed code. All rights reserved.
           </p>
+          <a
+            href="https://github.com/Kyblue11/BluesClues"
+            target="_blank"
+          >
+            Source code to this webpage
+          </a>
         </div>
       </div>
     </div>
