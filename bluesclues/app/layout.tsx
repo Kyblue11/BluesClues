@@ -8,7 +8,7 @@ const eczar = Eczar({
 });
 
 export const metadata: Metadata = {
-  title: "BluesClues",
+  title: "Aaron Lam",
   description: "Portfolio by Aaron",
 };
 
