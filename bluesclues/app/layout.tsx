@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Eczar } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const eczar = Eczar({
   variable: "--font-eczar",  // will be used in the css file
@@ -23,6 +25,7 @@ export default function RootLayout({
         className={`${eczar.variable} ${eczar.variable} antialiased`}
       >
         {children}
+        <Analytics></Analytics>
       </body>
     </html>
   );
