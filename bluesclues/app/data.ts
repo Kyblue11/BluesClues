@@ -72,7 +72,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_company_name: "Theodesis Sdn Bhd.", 
     work_method: "Internship, Hybrid" ,
     work_location: "Petaling Jaya, Selangor",
-    work_period: "Jan 2025 - Feb 2025",
+    work_period: "Jan 2026 - Feb 2026",
     work_desc: "Contributed to Telekom Malaysia NG999 project as Power Automate DevOps developer and ML data engineer intern. Developed automated workflows, integrated diverse data sources, deployed machine learning models in Vertica, and documented workflows to improve company efficiency and knowledge sharing.",
   },
 //   {
