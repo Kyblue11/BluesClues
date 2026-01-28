@@ -2,7 +2,7 @@ export default function ABoutMe() {
   return (
     <>
       <ul className="flex flex-col gap-4">
-        <p className="text-lg text-zinc-900 mt-5 mb-10">
+        <p className="text-lg text-zinc-900 mb-10">
           Haloo, I'm Aaron Lam! Currently studying at Monash University majoring
           in Bsc. of Computer Science (Advanced CS Specialisation). During free
           time, I build web apps, games and the occasional desktop tools for

@@ -6,7 +6,7 @@ export default function EducationRecord({educations}: {educations: Education[]})
       {educations.map((edu, idx) => (
         <li key={idx} className="relative">
           <div className="flex justify-between items-start mb-1">
-            <span className="text-lg font-semibold text-zinc-900">
+            <span className="var-h2">
               {edu.edu_name}
             </span>
             <span className="text-sm text-zinc-500 font-normal">
@@ -18,7 +18,7 @@ export default function EducationRecord({educations}: {educations: Education[]})
             <span className="text-xs text-zinc-400">{edu.edu_location}</span>
           </div>
           {edu.edu_desc && (
-            <p className="text-sm text-zinc-700 mt-1">{edu.edu_desc}</p>
+            <p className="var-h5">{edu.edu_desc}</p>
           )}
         </li>
       ))}

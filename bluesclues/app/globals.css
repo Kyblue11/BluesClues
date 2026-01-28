@@ -15,3 +15,15 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+.var-h1 {
+  @apply text-2xl font-bold mb-8 text-zinc-900;
+}
+
+.var-h2 {
+  @apply text-lg font-semibold text-zinc-900;
+}
+
+.var-h5 {
+  @apply text-sm text-zinc-700 mt-1;
+}

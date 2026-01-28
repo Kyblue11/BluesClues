@@ -6,7 +6,7 @@ export default function WorkExpRecord({ workexps }: { workexps: WorkExp[] }) {
       {workexps.map((work, idx) => (
         <li key={idx} className="relative">
           <div className="flex justify-between items-start mb-1">
-            <span className="text-lg font-semibold text-zinc-900">
+            <span className="var-h2">
               {work.work_title}
             </span>
             <span className="text-sm text-zinc-500 font-normal">
@@ -23,7 +23,7 @@ export default function WorkExpRecord({ workexps }: { workexps: WorkExp[] }) {
             <span className="text-xs text-zinc-500">{work.work_method}</span>
           </div>
           {work.work_desc && (
-            <p className="text-sm text-zinc-700 mt-1">{work.work_desc}</p>
+            <p className="var-h5">{work.work_desc}</p>
           )}
         </li>
       ))}

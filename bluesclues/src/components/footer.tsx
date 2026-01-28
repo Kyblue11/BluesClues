@@ -6,11 +6,8 @@ export default function Footer() {
           <p>
             Made by me using NextJS and hand-typed code. All rights reserved.
           </p>
-          <a
-            href="https://github.com/Kyblue11/BluesClues"
-            target="_blank"
-          >
-            Source code to this webpage
+          <a href="https://github.com/Kyblue11/BluesClues" target="_blank">
+            <p className="text-center"> Source code to this webpage</p>
           </a>
         </div>
       </div>
