@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function StatusCard() {
   return (
     <div className=" rounded-lg border-zinc-800 bg-zinc-200 p-8 flex items-center gap-16">
@@ -12,7 +14,13 @@ export default function StatusCard() {
           <li></li>
         </ul>
       </div>
-      <img src="/cat.jpg" alt="notmycat" className="w-28 h-28 rounded-lg" />
+      <Image
+        src="/cat.jpg"
+        alt="notmycat"
+        width={100}
+        height={100}
+        className="rounded-lg"
+      />{" "}
     </div>
   );
 }

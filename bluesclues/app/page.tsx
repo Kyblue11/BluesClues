@@ -10,34 +10,40 @@ export default function Home() {
   return (
     <>
       <div className="flex min-h-screen items-center justify-center bg-zinc-100 font-var">
-        <main className="flex flex-col items-center min-h-screen w-full max-w-3xl mx-auto py-24 px-4 bg-zinc-100">
-          <section className="w-full mb-16">
+        <main className="flex flex-col items-center min-h-screen w-full max-w-3xl mx-auto py-12 px-4 bg-zinc-100">
+          <section className="w-full mb-24">
             <h2 className="var-h1">About Me</h2>
             <ABoutMe></ABoutMe>
           </section>
 
-          <section className="mb-16">
+          <section className="mb-24">
             <StatusCard></StatusCard>
           </section>
 
-          <section className="w-full mb-16">
+          <section className="w-full mb-24">
             <h2 className="var-h1">Education</h2>
             <ul className="flex flex-col gap-10">
               <EducationRecord educations={EDUCATIONS}></EducationRecord>
             </ul>
           </section>
 
-          <section className="w-full mb-16">
+          <section className="w-full mb-24">
             <h2 className="var-h1">Work Experience</h2>
             <ul className="flex flex-col gap-10">
               <WorkExpRecord workexps={WORKEXPERIENCES}></WorkExpRecord>
             </ul>
           </section>
 
-          <section className="w-full mb-16">
+          <section className="w-full mb-24">
             <h2 className="var-h1">Skills</h2>
             <SkillSection></SkillSection>
           </section>
+          <a
+            href="#"
+            className="block text-zinc-600 underline"
+          >
+            Return to Top
+          </a>
         </main>
       </div>
       <Footer></Footer>
