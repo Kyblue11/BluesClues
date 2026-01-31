@@ -2,19 +2,23 @@ export default function SkillSection() {
   return (
     <ul>
       <li>
-        Web Development: TypeScript | Node.js | React.js (Next) | HTML | CSS |
-        Shadcn
+        <b>Web Development:</b> TypeScript | Node.js | React.js (NextJS) | HTML
+        | CSS | Shadcn
       </li>
-      <li>Databases: SQL (Oracle | MongoDB | Supabase | MS Access)</li>
       <li>
-        Data & AI: R (Data Analysis) | Python | Machine Learning (Supervised &
+        <b>Databases:</b> Oracle | MySQL | MongoDB | Supabase | MS Access
+      </li>
+      <li>
+        <b>Data & AI:</b> R | Python | Machine Learning (Supervised &
         Unsupervised)
       </li>
       <li>
-        Backend & Systems: Java (Backend) | C | C++ | Operating Systems &
+        <b>Backend & Systems:</b> Java (Backend) | C | Operating Systems &
         Concurrency
       </li>
-      <li> Other Languages: Haskell | Kotlin</li>
+      <li>
+        <b>Other Languages:</b> Haskell | Kotlin
+      </li>
     </ul>
   );
 }

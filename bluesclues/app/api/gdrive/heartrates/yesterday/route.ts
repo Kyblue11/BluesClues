@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { fetchYesterday } from "@/src/supabase/fetch";
+import { HeartRateRow } from "@/src/types/types";
 
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
@@ -15,7 +16,7 @@ export async function GET() {
     const ystdStart = ystd.startOf("day").format("YYYY-MM-DD HH:mm:ss");
     const ystdEnd = ystd.format("YYYY-MM-DD HH:mm:ss");
 
-    const data = await fetchYesterday(ystdStart, ystdEnd);
+    const data = await fetchYesterday(ystdStart, ystdEnd) as HeartRateRow[];
 
     return NextResponse.json({
       start: ystdStart,

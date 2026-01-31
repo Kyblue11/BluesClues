@@ -3,12 +3,13 @@ import { getDriveClient } from "@/src/googleDrive";
 import { parse } from "csv-parse/sync";
 import dayjs from "dayjs";
 
+import { HeartRateRow } from "@/src/types/types";
 import { isFileProcessed } from "@/src/supabase/checkProcessed";
 import { upsertRecords } from "@/src/supabase/insert";
 import { markFileProcessed } from "@/src/supabase/markProcessed";
 
 function normalizeRows(rows: any[]) {
-  const result: { timestamp: string; bpm: number }[] = [];
+  const result: HeartRateRow[] = [];
 
   for (const row of rows) {
     const bpm = Number(row["Heart rate"]);
@@ -21,7 +22,7 @@ function normalizeRows(rows: any[]) {
     result.push({
       timestamp: malaysiaTime,
       bpm,
-    });
+    } as HeartRateRow);
   }
 
   return result;

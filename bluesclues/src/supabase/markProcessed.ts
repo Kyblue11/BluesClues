@@ -6,7 +6,7 @@ export async function markFileProcessed(fileId: string, fileName: string) {
     file_name: fileName,
   });
 
-  // ignore duplicate insert race
+  // ignore duplicates
   if (error && !error.message.includes("duplicate")) {
     throw error;
   }

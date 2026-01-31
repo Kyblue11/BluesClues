@@ -4,10 +4,10 @@ export default function Footer() {
       <div className="flex flex-col items-center">
         <div className="max-w-2xl">
           <p>
-            Made by me using NextJS and hand-typed code. All rights reserved.
+            Made using hand-typed code. All rights reserved (me).
           </p>
           <a href="https://github.com/Kyblue11/BluesClues" target="_blank">
-            <p className="text-center"> Source code to this webpage</p>
+            <p className="text-center underline"> Source code to this webpage</p>
           </a>
         </div>
       </div>
