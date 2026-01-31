@@ -7,6 +7,7 @@ export async function GET() {
 
   const files = await GDriveClient.files.list({
     q: "name contains 'Heart rate'",
+    fields: "files(id, name, createdTime, modifiedTime, mimeType)"
   });
   return NextResponse.json(files.data.files);
 }
