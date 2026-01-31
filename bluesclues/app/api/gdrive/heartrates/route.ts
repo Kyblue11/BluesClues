@@ -1,39 +1,82 @@
 import { NextResponse } from "next/server";
 import { getDriveClient } from "@/src/googleDrive";
 import { parse } from "csv-parse/sync";
+import dayjs from "dayjs";
 
-export async function GET() {
-  const GDriveClient = getDriveClient();
+import { isFileProcessed } from "@/src/supabase/checkProcessed";
+import { upsertRecords } from "@/src/supabase/insert";
+import { markFileProcessed } from "@/src/supabase/markProcessed";
 
-  const files = await GDriveClient.files.list({
-    q: "name contains 'Heart rate' and trashed = false",
-    orderBy: "name_natural desc",
-    pageSize: 1, // TODO: only 1 needed for now?
-  });
+function normalizeRows(rows: any[]) {
+  const result: { timestamp: string; bpm: number }[] = [];
 
-  const file = files.data.files?.[0];
-  if (!file?.id) {
-    return NextResponse.json(
-      {
-        error: "No heart rate file found",
-      },
-      {
-        status: 404,
-      }
+  for (const row of rows) {
+    const bpm = Number(row["Heart rate"]);
+    const dateStr = String(row["Date"]);
+
+    const malaysiaTime = dayjs(dateStr, "YYYY.MM.DD HH:mm:ss").format(
+      "YYYY-MM-DD HH:mm:ss"
     );
+
+    result.push({
+      timestamp: malaysiaTime,
+      bpm,
+    });
   }
 
-  const output = await GDriveClient.files.get(
-    { fileId: file.id, alt: "media" },
-    { responseType: "text" }
-  );
+  return result;
+}
 
-  const heartRateRecords = parse(output.data as string, {
-    columns: true,
-  });
+export async function GET() {
+  try {
+    const GDriveClient = getDriveClient();
 
-  return NextResponse.json({
-    file: file.name,
-    latest: heartRateRecords,
-  });
+    const files = await GDriveClient.files.list({
+      q: "name contains 'Heart rate' and trashed = false",
+      orderBy: "name_natural desc",
+      pageSize: 1,
+    });
+
+    const file = files.data.files?.[0];
+    if (!file?.id) {
+      return NextResponse.json(
+        {
+          error: "No heart rate CSV found",
+        },
+        {
+          status: 404,
+        }
+      );
+    }
+
+    const alreadyProcessed = await isFileProcessed(file.id);
+    if (alreadyProcessed) {
+      return NextResponse.json({
+        message: "File already processed",
+        file: file.name,
+      });
+    }
+
+    const output = await GDriveClient.files.get(
+      { fileId: file.id, alt: "media" },
+      { responseType: "text" }
+    );
+
+    const heartRateRecords = parse(output.data as string, {
+      columns: true,
+    });
+
+    const batch = normalizeRows(heartRateRecords);
+    await upsertRecords(batch);
+    await markFileProcessed(file.id, file.name!);
+
+    return NextResponse.json({
+      inserted: batch.length,
+      file: file.name,
+      latest: heartRateRecords,
+    });
+  } catch (error) {
+    console.log(error);
+    return NextResponse.json({ error: String(error) }, { status: 500 });
+  }
 }

@@ -6,7 +6,6 @@ export function getOAuthClient() {
     process.env.GOOGLE_CLIENT_SECRET,
     process.env.GOOGLE_REDIRECT_URI
   );
-
   OAuthClient.setCredentials({
     refresh_token: process.env.GOOGLE_REFRESH_TOKEN,
   });
