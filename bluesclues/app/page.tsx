@@ -11,9 +11,9 @@ export default function Home() {
     <>
       <div className="flex min-h-screen items-center justify-center bg-zinc-100 font-var">
         <main className="flex flex-col items-center min-h-screen w-full max-w-3xl mx-auto py-12 px-4 bg-zinc-100">
+
           <section className="w-full mb-24">
             <p className="var-h5 text-center">NOTE:</p>
-
             <p className="var-h5 text-center">
               This page is currently being worked on. Do expect to see new
               additions and random things pop up here and there!
