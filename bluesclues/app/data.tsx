@@ -18,6 +18,7 @@ export interface WorkExp {
 }
 
 export interface Blog {
+  blog_slug: string,
   blog_title: string;
   blog_date: string;
   blog_media_desc?: string;
@@ -95,10 +96,11 @@ export const WORKEXPERIENCES: WorkExp[] = [
 import HeartRateHistogram from "@/src/components/histogram";
 export const BLOGS: Blog[] = [
   {
-    blog_title: "How I linked my watch to this website",
-    blog_date: "1st June 2026",
-    blog_media_desc: "Device used: Huawei Watch GT6 Pro",
+    blog_slug: "watch-api",
+    blog_title: "How I Linked my Watch to This Website",
+    blog_date: "1st Feb 2026",
+    blog_media_desc: "Data from: Huawei Watch GT6 Pro",
     blog_media: <HeartRateHistogram />,
-    blog_tagline: "Because why not?",
+    blog_tagline: "\"Because why not?\"",
   },
 ];
