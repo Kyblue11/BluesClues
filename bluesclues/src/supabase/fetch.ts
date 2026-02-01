@@ -1,6 +1,6 @@
 import { supabase } from "./supabase";
 
-export async function fetchYesterday(startStr: string, endStr: string) {
+export async function fetchPeriod(startStr: string, endStr: string) {
   const { data, error } = await supabase
     .from("heart_rate_data")
     .select("timestamp, bpm")
