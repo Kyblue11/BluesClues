@@ -5,6 +5,7 @@ import EducationRecord from "@/src/components/education";
 import WorkExpRecord from "@/src/components/workexperience";
 import SkillSection from "@/src/components/skills";
 import Footer from "@/src/components/footer";
+import HeartRateHistogram from "@/src/components/histogram";
 
 export default function Home() {
   return (
@@ -47,6 +48,18 @@ export default function Home() {
             <h2 className="var-h1">Skills</h2>
             <SkillSection></SkillSection>
           </section>
+
+          <section className="w-full mb-24">
+            <h2 className="var-h1">Live Heart Rate</h2>
+            <p className="var-h5 text-center">
+              Device used: Huawei Watch GT6 Pro
+            </p>
+            <HeartRateHistogram></HeartRateHistogram>
+            <p className="text-lg text-zinc-400 mt-5 text-center">
+              <i>"Because why not?"</i>
+            </p>
+          </section>
+
           <a href="#" className="block text-zinc-600 underline">
             Return to Top
           </a>
