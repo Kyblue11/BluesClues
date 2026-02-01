@@ -7,6 +7,9 @@ import { HeartRateRow } from "@/src/types/types";
 import { isFileProcessed } from "@/src/supabase/checkProcessed";
 import { upsertRecords } from "@/src/supabase/insert";
 import { markFileProcessed } from "@/src/supabase/markProcessed";
+import { purgeOldRecords } from "@/src/supabase/delete";
+
+const dailyFileRegex = /^Heart rate \d{4}\.\d{2}\.\d{2} Huawei Health\.csv$/;
 
 function normalizeRows(rows: any[]) {
   const result: HeartRateRow[] = [];
@@ -35,10 +38,14 @@ export async function GET() {
     const files = await GDriveClient.files.list({
       q: "name contains 'Heart rate' and trashed = false",
       orderBy: "name_natural desc",
-      pageSize: 1,
+      pageSize: 4,
     });
 
-    const file = files.data.files?.[0];
+    const dailyFiles = (files.data.files ?? []).filter((file) =>
+      dailyFileRegex.test(file.name!)
+    );
+
+    const file = dailyFiles[0];
     if (!file?.id) {
       return NextResponse.json(
         {
@@ -70,6 +77,7 @@ export async function GET() {
     const batch = normalizeRows(heartRateRecords);
     await upsertRecords(batch);
     await markFileProcessed(file.id, file.name!);
+    await purgeOldRecords(2);
 
     return NextResponse.json({
       inserted: batch.length,
