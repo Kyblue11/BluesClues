@@ -1,18 +1,17 @@
-import { EDUCATIONS, WORKEXPERIENCES } from "./data";
+import { EDUCATIONS, WORKEXPERIENCES, BLOGS } from "./data";
 import ABoutMe from "@/src/components/aboutme";
 import StatusCard from "@/src/components/statuscard";
 import EducationRecord from "@/src/components/education";
 import WorkExpRecord from "@/src/components/workexperience";
 import SkillSection from "@/src/components/skills";
+import MyBlog from "@/src/components/blog";
 import Footer from "@/src/components/footer";
-import HeartRateHistogram from "@/src/components/histogram";
 
 export default function Home() {
   return (
     <>
       <div className="flex min-h-screen items-center justify-center bg-zinc-100 font-var">
         <main className="flex flex-col items-center min-h-screen w-full max-w-3xl mx-auto py-12 px-4 bg-zinc-100">
-
           <section className="w-full mb-24">
             <p className="var-h5 text-center">NOTE:</p>
             <p className="var-h5 text-center">
@@ -50,14 +49,10 @@ export default function Home() {
           </section>
 
           <section className="w-full mb-24">
-            <h2 className="var-h1">Live Heart Rate</h2>
-            <p className="var-h5 text-center">
-              Device used: Huawei Watch GT6 Pro
-            </p>
-            <HeartRateHistogram></HeartRateHistogram>
-            <p className="text-lg text-zinc-400 mt-5 text-center">
-              <i>"Because why not?"</i>
-            </p>
+            <h2 className="var-h1">My Blog</h2>
+            <ul className="flex flex-col gap-10">
+              <MyBlog blogs={BLOGS}></MyBlog>
+            </ul>
           </section>
 
           <a href="#" className="block text-zinc-600 underline">
