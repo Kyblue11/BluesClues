@@ -97,7 +97,7 @@ import HeartRateHistogram from "@/src/components/histogram";
 export const BLOGS: Blog[] = [
   {
     blog_slug: "watch-api",
-    blog_title: "How I Linked my Watch to This Website",
+    blog_title: "How I Linked my Watch to This Webpage",
     blog_date: "1st Feb 2026",
     blog_media_desc: "Live data streamed from: Huawei Watch GT6 Pro",
     blog_media: <HeartRateHistogram />,
