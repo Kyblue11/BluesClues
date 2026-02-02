@@ -34,7 +34,7 @@ export default function HeartRateHistogram() {
   useEffect(() => {
     async function load() {
       setLoading(true);
-      const res = await fetch("/api/gdrive/heartrates/yesterday");
+      const res = await fetch("/api/gdrive/heartrates/yesterday", { method: "GET" });
       const records: HeartRateRow[] = (await res.json()).records || [];
 
       // timestamps are 'YYYY-MM-DD HH:mm:ss'

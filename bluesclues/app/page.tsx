@@ -1,4 +1,5 @@
 import { EDUCATIONS, WORKEXPERIENCES, BLOGS } from "./data";
+import ViewCounter from "@/src/components/views";
 import ABoutMe from "@/src/components/aboutme";
 import StatusCard from "@/src/components/statuscard";
 import EducationRecord from "@/src/components/education";
@@ -21,7 +22,12 @@ export default function Home() {
           </section>
 
           <section className="w-full mb-24">
-            <h2 className="var-h1">About Me</h2>
+            <div className="flex justify-between items-start">
+              <h2 className="var-h1">About Me</h2>
+              <span className="text-sm text-zinc-500 font-normal">
+                <ViewCounter></ViewCounter>
+              </span>
+            </div>
             <ABoutMe></ABoutMe>
           </section>
 
