@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 
 export default function StatusCard() {
   return (
-    <div className=" rounded-lg border-zinc-800 bg-zinc-200 p-8 flex items-center gap-16">
+    <div className=" rounded-lg border-zinc-800 bg-zinc-200 p-8 flex flex-col lg:flex-row items-center gap-8">
       <div>
         <p className="var-h text-lg font-semibold text-zinc-900 text-center">
           Currently Working On:
@@ -24,7 +24,7 @@ export default function StatusCard() {
         width={100}
         height={100}
         className="rounded-lg"
-      />{" "}
+      />
     </div>
   );
 }

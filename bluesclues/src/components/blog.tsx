@@ -16,7 +16,7 @@ export default function MyBlog({ blogs }: { blogs: Blog[] }) {
           </Link>
 
           {blog.blog_media_desc && (
-            <p className=" text-sm text-zinc-700 text-center mt-5">
+            <p className=" text-sm text-zinc-700 text-center mt-7">
               {blog.blog_media_desc}
             </p>
           )}
