@@ -9,6 +9,12 @@ import timezone from "dayjs/plugin/timezone";
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
+/**
+ * I see that you clicked the link!
+ * For (obvious) security concerns,
+ * all heart-rate data fetched here
+ * are delayed by 24 hours!
+ */
 export async function GET(req: NextRequest) {
   try {
     var data: HeartRateRow[] = [];

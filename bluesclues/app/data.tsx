@@ -89,7 +89,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Petaling Jaya, Selangor",
     work_period: "Jan 2026 - Feb 2026",
     work_desc:
-      "Contributed to Telekom Malaysia NG999 project as Power Automate DevOps developer and ML data engineer intern. Developed automated workflows, integrated diverse data sources, deployed machine learning models in Vertica, and documented workflows to improve company efficiency and knowledge sharing.",
+      "Contributed to Telekom Malaysia NG999's team as Power Automate DevOps developer and ML data engineer intern. Developed automated workflows, integrated diverse data sources, deployed machine learning models in Vertica, and documented workflows to improve company efficiency and knowledge sharing.",
   },
 ];
 

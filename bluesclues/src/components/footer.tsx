@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="border-t border-border/40 py-8  font-var px-4">
       <div className="flex flex-col items-center">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl text-center text-zinc-600">
           <p>
             Made using hand-typed code. All rights reserved (me).
           </p>

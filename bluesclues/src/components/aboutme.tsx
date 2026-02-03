@@ -3,10 +3,10 @@ export default function ABoutMe() {
     <>
       <ul className="flex flex-col gap-4">
         <p className="text-lg text-zinc-900 mb-10">
-          Currently studying at Monash University majoring in Bsc. of Computer
-          Science (Advanced CS Specialisation), in my year 3 semester 2. During
+          Currently studying at Monash University: Bsc. of Computer
+          Science (Advanced CS Specialization), in my year 3 semester 2. During
           free time, I build web apps, games and even desktop tools for
-          productivity (and fun!).
+          productivity (and fun)~
         </p>
       </ul>
 

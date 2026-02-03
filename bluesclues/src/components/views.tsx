@@ -19,6 +19,8 @@ export default function ViewCounter() {
   }, []);
 
   return (
-    <p> {viewCount === null ? "Loading ..." : viewCount} Views</p>
+    <div className="rounded-lg bg-zinc-200 p-2">
+    <p className="text-xs">{viewCount === null ? "Loading ..." : viewCount} Views</p>
+    </div>
   );
 }
