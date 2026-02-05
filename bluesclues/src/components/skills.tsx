@@ -2,11 +2,11 @@ export default function SkillSection() {
   return (
     <ul>
       <li>
-        <b>Web Development:</b> TypeScript | Node.js | React.js (NextJS) | HTML
+        <b>Web Development:</b> TypeScript | Node | React (NextJS) | HTML
         | CSS | Shadcn
       </li>
       <li>
-        <b>Databases:</b> Oracle | MySQL | MongoDB | Supabase | MS Access
+        <b>Databases:</b> Oracle | MySQL | MongoDB | PostgreSQL (Supabase) | MS Access
       </li>
       <li>
         <b>Data & AI:</b> R | Python | Machine Learning (Supervised &

@@ -18,7 +18,7 @@ export interface WorkExp {
 }
 
 export interface Blog {
-  blog_slug: string,
+  blog_slug: string;
   blog_title: string;
   blog_date: string;
   blog_media_desc?: string;
@@ -53,7 +53,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Subang Jaya Selangor",
     work_period: "Dec 2024 - Fec 2025",
     work_desc:
-      "Part of a team that built Malaysia's first indie anime e-commerce platform to connect creators and fans. Developed key features like AI search and vendor community profiles using Next.js, Node.js, and Supabase, and deployed with Docker for scalability.",
+      "Helped developed Malaysia's first indie anime e-commerce platform to connect creators and fans. Key features include AI search and vendor community profiles using Next.js, Node.js, Supabase and deployed with Docker for scalability.",
   },
   {
     work_title: "FIT1051 Class Assistant - Tutor",
@@ -62,7 +62,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Subang Jaya, Selangor",
     work_period: "Mar 2025 - June 2025",
     work_desc:
-      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java. I facilitated students' mastery of Java's strict type system, promoting disciplined coding practices and effective problem-solving for real-world programming challenges. Earned the paid role through a competitive selection process, chosen from over 80+ candidates.",
+      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java. I taught students Java, promoting disciplined coding practices and effective problem-solving for real-world programming challenges.",
   },
   {
     work_title: "FIT2014 Class Assistant - Tutor",
@@ -71,7 +71,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Subang Jaya, Selangor",
     work_period: "Jul 2025 - Oct 2025",
     work_desc:
-      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT2014 - Theory of Computation. This unit introduced computational languages and models such as finite state automata, Turing machines, P and NP-complete problems. Here, I assist the teaching team in tutorial sessions, as well as conduct online consultations, whilst help managing the Monash Forum for students.",
+      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT2014 - Theory of Computation. Here, I assist the teaching team in tutorial sessions, as well as conduct online consultations, whilst help managing the Monash Forum for students. I covered theories such as finite state automata, Turing machines, P and NP-complete problems.",
   },
   {
     work_title: "Partnership Distribution - Digital Transformation",
@@ -89,7 +89,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Petaling Jaya, Selangor",
     work_period: "Jan 2026 - Feb 2026",
     work_desc:
-      "Contributed to Telekom Malaysia NG999's team as Power Automate DevOps developer and ML data engineer intern. Developed automated workflows, integrated diverse data sources, deployed machine learning models in Vertica, and documented workflows to improve company efficiency and knowledge sharing.",
+      "Contributed to Telekom Malaysia NG999 as Power Automate DevOps developer and ML data engineer intern. Developed and deployed automated workflows to cloud environments via PA and ADO, integrated diverse data sources and deployed machine learning models in Vertica.",
   },
 ];
 
@@ -101,6 +101,6 @@ export const BLOGS: Blog[] = [
     blog_date: "1st Feb 2026",
     blog_media_desc: "Live data streamed from: Huawei Watch GT6 Pro",
     blog_media: <HeartRateHistogram />,
-    blog_tagline: "\"Because why not?\"",
+    blog_tagline: '"Because why not?"',
   },
 ];
