@@ -5,7 +5,7 @@ export default function WorkExpRecord({ workexps }: { workexps: WorkExp[] }) {
     <>
       {workexps.map((work, idx) => (
         <li key={idx} className="relative">
-          <div className="flex justify-between items-start mb-1">
+          <div className="flex flex-col lg:flex-row justify-between items-start mb-1">
             <span className="var-h2">
               {work.work_title}
             </span>

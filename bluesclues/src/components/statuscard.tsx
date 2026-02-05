@@ -30,7 +30,7 @@ export default function StatusCard() {
               Increase card with here h
             </p>
             <p className="text-xs text-zinc-400 text-center mb-4">
-              As of {dayjs().format("DD-MM-YYYY")}
+              As of {dayjs().format("DD-MM-YYYY")}.
             </p>
           </div>
           <Image
@@ -51,7 +51,7 @@ export default function StatusCard() {
               Currently Working On:
             </p>
             <p className="text-xs text-zinc-400 text-center mb-4">
-              As of {dayjs().format("DD-MM-YYYY")}
+              As of {dayjs().format("DD-MM-YYYY")}.
             </p>
           </div>
           <Image
@@ -69,7 +69,7 @@ export default function StatusCard() {
         >
           <div>
             <p className="text-xs text-zinc-400 text-center mb-4">
-              As of {dayjs().format("DD-MM-YYYY")}
+              As of {dayjs().format("DD-MM-YYYY")}.
             </p>
             <ul>
               <li>
