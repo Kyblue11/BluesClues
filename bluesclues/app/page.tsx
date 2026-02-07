@@ -1,4 +1,5 @@
 import { EDUCATIONS, WORKEXPERIENCES, BLOGS } from "./data";
+import ChatBot from "@/src/components/chatbot";
 import ViewCounter from "@/src/components/views";
 import ABoutMe from "@/src/components/aboutme";
 import StatusCard from "@/src/components/statuscard";
@@ -13,6 +14,10 @@ export default function Home() {
     <>
       <div className="flex min-h-screen items-center justify-center bg-zinc-100 font-var">
         <main className="flex flex-col items-center min-h-screen w-full max-w-3xl mx-auto py-12 px-4 bg-zinc-100">
+
+          <ChatBot></ChatBot>
+
+
           <section className="w-full mb-24">
             <p className="var-h5 text-center">NOTE:</p>
             <p className="var-h5 text-center">
