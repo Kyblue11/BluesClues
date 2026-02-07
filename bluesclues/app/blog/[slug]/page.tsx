@@ -1,4 +1,5 @@
 import Footer from "@/src/components/footer";
+import { BLOGS } from "../../data";
 import WatchAPI from "./watch-api";
 import ChatBot from "./portfolio-ai";
 
@@ -8,15 +9,16 @@ export default async function BlogPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const { slug } = (await params) as { slug: string };
   let BlogContent: React.ReactNode = <div>Blog page not found.</div>;
+  const { slug } = (await params) as { slug: string };
+  const blog = BLOGS.find((b) => b.blog_slug === slug)!;
 
   // TODO: it would be better to put the blog contents into the Blog object
   // otherwise this if-selection will continue to grow
   if (slug === "watch-api") {
     BlogContent = <WatchAPI />;
   } else if (slug === "portfolio-ai") {
-    BlogContent = <ChatBot/>;
+    BlogContent = <ChatBot />;
   }
 
   return (
@@ -28,7 +30,18 @@ export default async function BlogPage({
               <a href="/">&lt; Back to home</a>
             </div>
           </section>
+
+          <section className="w-full text-center mb-8">
+            <div className="flex flex-col">
+              <h2 className=" text-2xl font-bold text-zinc-900">
+                {blog.blog_title}
+              </h2>
+              <p className="var-h5">{blog.blog_date}</p>
+            </div>
+          </section>
+
           {BlogContent}
+
           <a href="#" className="block text-zinc-600 underline mt-24">
             Return to Top
           </a>
