@@ -1,5 +1,4 @@
 import { EDUCATIONS, WORKEXPERIENCES, BLOGS } from "./data";
-import ChatBot from "@/src/components/chatbot";
 import ViewCounter from "@/src/components/views";
 import ABoutMe from "@/src/components/aboutme";
 import StatusCard from "@/src/components/statuscard";
@@ -7,6 +6,7 @@ import EducationRecord from "@/src/components/education";
 import WorkExpRecord from "@/src/components/workexperience";
 import SkillSection from "@/src/components/skills";
 import MyBlog from "@/src/components/blog";
+import ChatBot from "@/src/components/chatbot";
 import Footer from "@/src/components/footer";
 
 export default function Home() {
@@ -14,9 +14,6 @@ export default function Home() {
     <>
       <div className="flex min-h-screen items-center justify-center bg-zinc-100 font-var">
         <main className="flex flex-col items-center min-h-screen w-full max-w-3xl mx-auto py-12 px-4 bg-zinc-100">
-
-          <ChatBot></ChatBot>
-
 
           <section className="w-full mb-24">
             <p className="var-h5 text-center">NOTE:</p>
@@ -64,6 +61,10 @@ export default function Home() {
             <ul className="flex flex-col gap-10">
               <MyBlog blogs={BLOGS}></MyBlog>
             </ul>
+          </section>
+
+          <section className="w-full mb-24">
+            <ChatBot></ChatBot>
           </section>
 
           <a href="#" className="block text-zinc-600 underline">
