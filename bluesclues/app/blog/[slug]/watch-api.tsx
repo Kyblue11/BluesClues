@@ -10,15 +10,7 @@ dayjs.extend(timezone);
 export default function WatchAPI() {
   return (
     <>
-      <section className="w-full text-center">
-        <div className="flex flex-col">
-          <h2 className=" text-2xl font-bold text-zinc-900">
-            How I Linked my Watch to This Webpage
-          </h2>
-          <p className="var-h5">1st Feb 2026</p>
-        </div>
-      </section>
-      <p className="text-lg text-zinc-900 mt-8">
+      <p className="text-lg text-zinc-900">
         Streaming live data for{" "}
         {dayjs().tz("Asia/Kuala_Lumpur").format("DD-MM-YYYY HH:mm")}
       </p>
@@ -143,11 +135,12 @@ export default function WatchAPI() {
         <p className="text-lg text-zinc-900 mt-8">
           There are a few benefts to this. I can keep my API logic alongside my
           frontend code in one Next.js project, instead of needing to write
-          seperate functions outside my codebase (e.g. in Vercel or Supabase). 
+          seperate functions outside my codebase (e.g. in Vercel or Supabase).
           Besides that, the frequency of SQL queries sent to Supabase would be
           reduced, since data is loaded dynamically, i.e. the SQL query only
           gets invoked when a user visits the webpage. On the other hand,
-          implementing a cron job would mean the SQL query <i>will always run </i>
+          implementing a cron job would mean the SQL query{" "}
+          <i>will always run </i>
           every day, even if the webpage recieves no visitors that particular
           day.
         </p>
