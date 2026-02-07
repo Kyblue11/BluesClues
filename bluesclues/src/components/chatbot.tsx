@@ -16,7 +16,11 @@ export default function ChatBot() {
     });
     const data = await response.json();
     setLoading(false);
-    setReply(data.responseText);
+    if (data.error) {
+      setReply("Woa, you've hit your daily limit!");
+    } else {
+      setReply(data.responseText);
+    }
   }
 
   return (
@@ -42,9 +46,7 @@ export default function ChatBot() {
             onChange={(i) => setQuestion(i.target.value)}
             disabled={loading}
           ></input>
-          <button
-            className="cursor-pointer bg-white p-2 rounded-lg"
-          >
+          <button className="cursor-pointer bg-white p-2 rounded-lg">
             Send
           </button>
         </form>
