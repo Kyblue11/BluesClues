@@ -13,3 +13,5 @@ export async function GET() {
   );
   return NextResponse.redirect(url);
 }
+
+// start.ts => googleDrive.ts(getOAuthClient) => env(GOOGLE_REDIRECT_URI) => callback.ts(GCloud)
