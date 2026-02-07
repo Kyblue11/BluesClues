@@ -44,11 +44,6 @@ export default function ChatBot() {
           ></input>
           <button
             className="cursor-pointer bg-white p-2 rounded-lg"
-            type="button"
-            onClick={() => {
-              submitQuestion();
-              setQuestion("");
-            }}
           >
             Send
           </button>
