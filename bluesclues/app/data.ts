@@ -96,4 +96,10 @@ export const BLOGS: Blog[] = [
     blog_date: "1st Feb 2026",
     blog_media_desc: "How I Connected My Smartwatch to a Live Web Dashboard",
   },
+  {
+    blog_slug: "portfolio-ai",
+    blog_title: "Portfolio Chatbot",
+    blog_date: "8th Feb 2026",
+    blog_media_desc: "Ask me about my history, skills, projects, hobbies and CS journey",
+  },
 ];

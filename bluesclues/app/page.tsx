@@ -63,10 +63,6 @@ export default function Home() {
             </ul>
           </section>
 
-          <section className="w-full mb-24">
-            <ChatBot></ChatBot>
-          </section>
-
           <a href="#" className="block text-zinc-600 underline">
             Return to Top
           </a>

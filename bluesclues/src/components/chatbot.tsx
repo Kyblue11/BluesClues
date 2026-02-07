@@ -21,13 +21,7 @@ export default function ChatBot() {
 
   return (
     <>
-      <h2 className=" text-2xl font-bold text-zinc-900 text-center">
-        Ask My AI
-      </h2>
-      <p className="var-h5 text-center">
-        Ask me about my projects, tech stack, CS concepts or even hobbies!
-      </p>
-      <div>
+      <div className="w-full mb-4">
         <form
           className="flex flex-col lg:flex-row gap-4 lg:justify-between items-middle bg-zinc-200 p-4 mt-4 mb-4 rounded-lg"
           onSubmit={(i) => {

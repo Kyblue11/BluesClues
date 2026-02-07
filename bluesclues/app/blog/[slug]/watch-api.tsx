@@ -10,7 +10,7 @@ dayjs.extend(timezone);
 export default function WatchAPI() {
   return (
     <>
-      <section className="w-full text-center">
+      <section className="w-full text-center mb-8">
         <div className="flex flex-col">
           <h2 className=" text-2xl font-bold text-zinc-900">
             Real-Time Heart Rate Streaming: From Watch to Web
@@ -18,7 +18,8 @@ export default function WatchAPI() {
           <p className="var-h5">1st Feb 2026</p>
         </div>
       </section>
-      <p className="text-lg text-zinc-900 mt-8">
+      
+      <p className="text-lg text-zinc-900">
         Streaming live data for{" "}
         {dayjs().tz("Asia/Kuala_Lumpur").format("DD-MM-YYYY HH:mm")}
       </p>
