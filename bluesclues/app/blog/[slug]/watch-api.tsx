@@ -13,7 +13,7 @@ export default function WatchAPI() {
       <section className="w-full text-center">
         <div className="flex flex-col">
           <h2 className=" text-2xl font-bold text-zinc-900">
-            How I Linked my Watch to This Webpage
+            Real-Time Heart Rate Streaming: From Watch to Web
           </h2>
           <p className="var-h5">1st Feb 2026</p>
         </div>

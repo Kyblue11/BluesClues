@@ -1,5 +1,3 @@
-import type { JSX } from "react";
-
 export interface Education {
   edu_name: string;
   edu_location: string;
@@ -22,8 +20,6 @@ export interface Blog {
   blog_title: string;
   blog_date: string;
   blog_media_desc?: string;
-  blog_media?: JSX.Element;
-  blog_tagline?: string;
 }
 
 export const EDUCATIONS: Education[] = [
@@ -93,14 +89,11 @@ export const WORKEXPERIENCES: WorkExp[] = [
   },
 ];
 
-import HeartRateHistogram from "@/src/components/histogram";
 export const BLOGS: Blog[] = [
   {
     blog_slug: "watch-api",
-    blog_title: "How I Linked my Watch to This Webpage",
+    blog_title: "Real-Time Heart Rate Streaming: From Watch to Web",
     blog_date: "1st Feb 2026",
-    blog_media_desc: "Live data streamed from: Huawei Watch GT6 Pro",
-    blog_media: <HeartRateHistogram />,
-    blog_tagline: '"Because why not?"',
+    blog_media_desc: "How I Connected My Smartwatch to a Live Web Dashboard",
   },
 ];
