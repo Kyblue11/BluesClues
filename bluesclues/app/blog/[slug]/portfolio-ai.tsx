@@ -17,19 +17,19 @@ export default function PortfolioAI() {
         </p>
         <ul className="blog-content-ul">
           <li>
-            <b>Daily Request Limit (RPD):</b> 1,000 requests per day
+            <b>Daily Request Limit (RPD):</b> 20 requests per day
           </li>
           <li>
             <b>Tokens Per Minute (TPM):</b> 250,000 tokens
           </li>
           <li>
-            <b>Requests Per Minute:</b> 15 Requests
+            <b>Requests Per Minute:</b> 10 Requests
           </li>
         </ul>
         <p className="text-lg text-zinc-900 mb-2 mt-2">
           This daily limit resets every day at midnight Pacific Time (
           <i>so please share your request limit with other page visitors</i>{" "}
-          (づ￣ 3￣)づ.
+          (づ￣ 3￣)づ, thank you!
         </p>
       </section>
     </>
