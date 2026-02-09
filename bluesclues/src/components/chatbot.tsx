@@ -46,7 +46,10 @@ export default function ChatBot() {
             onChange={(i) => setQuestion(i.target.value)}
             disabled={loading}
           ></input>
-          <button className="cursor-pointer bg-white p-2 rounded-lg">
+          <button
+            disabled={loading}
+            className="cursor-pointer bg-white p-2 rounded-lg"
+          >
             Send
           </button>
         </form>

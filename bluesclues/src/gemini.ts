@@ -1,11 +1,11 @@
 import { GoogleGenAI } from "@google/genai";
 import { SYSTEM_PROMPT } from "@/app/data";
 
-export async function sendPrompt(prompt: string) {
+export async function sendPrompt(prompt: string, modelname: string) {
   try {
     const ai = new GoogleGenAI({});
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash-lite",
+      model: modelname,
       contents: prompt,
       config: {
         systemInstruction: SYSTEM_PROMPT,
