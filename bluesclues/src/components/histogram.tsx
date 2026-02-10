@@ -29,13 +29,17 @@ Chart.register(
 export default function HeartRateHistogram() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null); // 1. points to <canvas> dom element
   const chartRef = useRef<Chart | null>(null); // 2. creates the Chart.js instance
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [hasData, setHasData] = useState<boolean>(true);
 
   useEffect(() => {
     async function load() {
       setLoading(true);
       const res = await fetch("/api/gdrive/heartrates/yesterday", { method: "GET" });
       const records: HeartRateRow[] = (await res.json()).records || [];
+      if (records.length == 0) {
+        setHasData(false);
+      }
 
       // timestamps are 'YYYY-MM-DD HH:mm:ss'
       const labels = records.map((r) => r.timestamp.slice(11, 16)); // "HH:MM"
@@ -100,7 +104,14 @@ export default function HeartRateHistogram() {
 
   return (
     <div style={{ width: "100%", height: 320 }}>
-      {loading ? <div>Loading...</div> : null}
+      {loading ? (
+        <div className=" text-sm text-zinc-600 text-center ">Loading...</div>
+      ) : null}
+      {!loading && !hasData && (
+        <div className=" text-sm text-zinc-600 text-center ">
+          Aaron is currently not wearing his watch, check again tomorrow!
+        </div>
+      )}
       <canvas ref={canvasRef} />
     </div>
   );

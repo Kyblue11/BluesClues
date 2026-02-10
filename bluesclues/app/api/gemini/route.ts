@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     });
 
   } catch (error) {
-    console.log("gemini-2.5-flash-lite failed, trying gemini-2.5-flash...");
+    console.log("Luckily I have a fallback (sigh), trying gemini-2.5-flash...");
     try {
       const result = await sendPrompt(prompt, "gemini-2.5-flash");
       return NextResponse.json({

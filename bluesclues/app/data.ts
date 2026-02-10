@@ -46,7 +46,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_title: "Full Stack Developer",
     work_company_name: "Anilabs",
     work_method: "Contract, On-Site",
-    work_location: "Subang Jaya Selangor",
+    work_location: "Subang Jaya, Selangor",
     work_period: "Dec 2024 - Fec 2025",
     work_desc:
       "Helped developed Malaysia's first indie anime e-commerce platform to connect creators and fans. Key features include AI search and vendor community profiles using Next.js, Node.js, Supabase and deployed with Docker for scalability.",
