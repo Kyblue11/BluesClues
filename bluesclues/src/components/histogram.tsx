@@ -35,7 +35,9 @@ export default function HeartRateHistogram() {
   useEffect(() => {
     async function load() {
       setLoading(true);
-      const res = await fetch("/api/gdrive/heartrates/yesterday", { method: "GET" });
+      const res = await fetch("/api/gdrive/heartrates/yesterday", {
+        method: "GET",
+      });
       const records: HeartRateRow[] = (await res.json()).records || [];
       if (records.length == 0) {
         setHasData(false);
@@ -103,7 +105,7 @@ export default function HeartRateHistogram() {
   }, []);
 
   return (
-    <div style={{ width: "100%", height: 320 }}>
+    <div className="w-full mb-5 lg:mb-0" style={{ width: "100%", height: 320 }}>
       {loading ? (
         <div className=" text-sm text-zinc-600 text-center ">Loading...</div>
       ) : null}
