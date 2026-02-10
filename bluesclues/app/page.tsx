@@ -17,7 +17,7 @@ export default function Home() {
 
           <section className="w-full mb-24">
             <p className="var-h5 text-center">NOTE:</p>
-            <p className="var-h5 text-center">
+            <p className=" text-sm mt-1 text-zinc-400 text-center">
               This page is currently being worked on. Do expect to see new
               additions and random things pop up here and there!
             </p>
