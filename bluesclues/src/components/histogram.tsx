@@ -105,7 +105,7 @@ export default function HeartRateHistogram() {
   }, []);
 
   return (
-    <div className="w-full mb-5 lg:mb-0" style={{ height: 320 }}>
+    <div className="w-full mb-4 lg:mb-0" style={{ height: 320 }}>
       {loading ? (
         <div className=" text-sm text-zinc-600 text-center ">Loading...</div>
       ) : null}

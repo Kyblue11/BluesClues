@@ -15,7 +15,7 @@ export default function WatchAPI() {
         {dayjs().tz("Asia/Kuala_Lumpur").format("DD-MM-YYYY HH:mm")}
       </p>
       <HeartRateHistogram></HeartRateHistogram>
-      <p className=" text-sm text-zinc-600 text-center mt-5">
+      <p className=" text-sm text-zinc-600 text-center lg:mt-4">
         Data source: Huawei Watch GT6 Pro
       </p>
 

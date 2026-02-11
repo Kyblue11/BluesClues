@@ -6,7 +6,6 @@ import EducationRecord from "@/src/components/education";
 import WorkExpRecord from "@/src/components/workexperience";
 import SkillSection from "@/src/components/skills";
 import MyBlog from "@/src/components/blog";
-import ChatBot from "@/src/components/chatbot";
 import Footer from "@/src/components/footer";
 
 export default function Home() {

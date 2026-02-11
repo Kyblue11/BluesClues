@@ -31,6 +31,15 @@ export default function PortfolioAI() {
           <i>so please share your request limit with other page visitors</i>{" "}
           (づ￣ 3￣)づ, thank you!
         </p>
+
+        <p className="text-lg text-zinc-900 mb-2 mt-8">
+          <b>Context Memory</b>
+        </p>
+        <p className="text-lg text-zinc-900 mb-2">
+          So how does the ai actually remember my personal details? It would
+          need some form of 'persistent' memory to be able to retrieve data,
+          both accurately and consistently.
+        </p>
       </section>
     </>
   );
