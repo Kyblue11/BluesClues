@@ -3,10 +3,10 @@ export default function ABoutMe() {
     <>
       <ul className="flex flex-col gap-4">
         <p className="text-lg text-zinc-900 mb-10">
-          Currently enrolled in Bachelor of Computer Science (Advanced CS
-          Specialization) at Monash University, rocking my Year 3 Semester 2.
-          During free time, I build web apps, games and even desktop tools for
-          productivity and fun~
+          Currently residing in Subang Jaya, Selangor. Enrolled in Bachelor of
+          Computer Science (Advanced CS Specialization) at Monash University, 
+          rocking my Year 3 Semester 2. During free time, I build web apps, 
+          games and even desktop tools for productivity and fun!
         </p>
       </ul>
 
