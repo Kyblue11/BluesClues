@@ -37,7 +37,7 @@ export default function PortfolioAI() {
           <b>Context Memory</b>
         </p>
         <p className="text-lg text-zinc-900 mb-2">
-          So how does the ai actually remember my personal details? It would
+          So how does the LLM actually remember my personal details? It would
           need some form of 'persistent' memory to be able to retrieve data,
           both accurately and consistently. For LLMs, there are plenty of ways
           to achieve this such as RAG, CAG, System Prompt Injections, etc. Each
@@ -104,13 +104,13 @@ export default function PortfolioAI() {
           <code className="language-typescript text-zinc-400">
             {`
     const response = await ai.models
-      .generateContent({
-          model: modelname,
-          contents: prompt,
-          config: {
-            systemInstruction: PROMPT,
-          },
-      });
+    .generateContent({
+      model: modelname,
+      contents: prompt,
+      config: {
+        systemInstruction: PROMPT,
+      },
+    });
     `}
           </code>
         </pre>
