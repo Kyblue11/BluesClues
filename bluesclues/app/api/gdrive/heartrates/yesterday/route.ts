@@ -20,7 +20,7 @@ export async function GET(req: NextRequest) {
     var data: HeartRateRow[] = [];
     const now = dayjs().tz("Asia/Kuala_Lumpur");
     const ystd = now.subtract(1, "day");
-    const ystdStart = ystd.startOf("day").format("YYYY-MM-DD HH:mm:ss");
+    const ystdStart = ystd.subtract(10, "hour").format("YYYY-MM-DD HH:mm:ss");
     const ystdEnd = ystd.format("YYYY-MM-DD HH:mm:ss");
     data = (await fetchPeriod(ystdStart, ystdEnd)) as HeartRateRow[];
 
@@ -41,7 +41,7 @@ export async function GET(req: NextRequest) {
     if (!data || data.length == 0) {
       console.log("Upserter also failed, now trying 2 days ago' data");
       const dayb4ystd = now.subtract(2, "day");
-      const dayb4ystdStart = dayb4ystd.startOf("day").format("YYYY-MM-DD HH:mm:ss");
+      const dayb4ystdStart = dayb4ystd.subtract(10, "hour").format("YYYY-MM-DD HH:mm:ss");
       const dayb4ystdEnd = dayb4ystd.format("YYYY-MM-DD HH:mm:ss");
       data = await fetchPeriod(dayb4ystdStart, dayb4ystdEnd) as HeartRateRow[];
     }

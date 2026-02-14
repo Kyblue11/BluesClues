@@ -77,7 +77,7 @@ export async function GET() {
     const batch = normalizeRows(heartRateRecords);
     await upsertRecords(batch);
     await markFileProcessed(file.id, file.name!);
-    await purgeOldRecords(2);
+    await purgeOldRecords(3);
 
     return NextResponse.json({
       inserted: batch.length,

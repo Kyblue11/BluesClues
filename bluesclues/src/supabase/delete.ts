@@ -6,7 +6,7 @@ import timezone from "dayjs/plugin/timezone";
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-export async function purgeOldRecords(days: number = 2) {
+export async function purgeOldRecords(days: number = 3) {
   const cutoff = dayjs()
     .tz("Asia/Kuala_Lumpur")
     .subtract(days, "day")
