@@ -15,7 +15,7 @@ export default function StatusCard() {
     >
 
       <div
-        className="transition-transform duration-1000 shadow-lg"
+        className="transition-transform duration-750 shadow-lg"
         style={{
           transformStyle: "preserve-3d", // lets children exist in 3D space
           transform: flipped ? "rotateX(180deg)" : "rotateX(0deg)",
@@ -43,7 +43,7 @@ export default function StatusCard() {
         </div>
 
         <div // front (allgined perfectly)
-          className="absolute inset-0 rounded-lg bg-zinc-200 p-8 flex flex-col lg:flex-row items-center lg:justify-between"
+          className="absolute inset-0 rounded-lg border-2 border-zinc-600 bg-white p-8 flex flex-col lg:flex-row items-center lg:justify-between"
           style={{ backfaceVisibility: "hidden" }} // hide opposite side (if one side is smaller than the other)
         >
           <div>
