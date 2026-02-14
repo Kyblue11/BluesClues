@@ -100,18 +100,18 @@ export default function PortfolioAI() {
           and projects!
         </p>
 
-        <pre>
+        <pre className="flex justify-center w-full">
           <code className="language-typescript text-zinc-400">
             {`
-    const response = await ai.models
-    .generateContent({
+const response = await ai.models
+  .generateContent({
       model: modelname,
       contents: prompt,
       config: {
         systemInstruction: PROMPT,
       },
-    });
-    `}
+  });
+          `}
           </code>
         </pre>
 
