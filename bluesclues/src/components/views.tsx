@@ -7,7 +7,7 @@ export default function ViewCounter() {
   useEffect(() => {
     async function updateAndFetchViews() {
       if (process.env.NODE_ENV == "production") {
-        const hasBeenCounted = sessionStorage.getItem("viewCounted");
+        const hasBeenCounted = sessionStorage.getItem("viewCounted"); // value: "null"
 
         if (!hasBeenCounted) {
           const res = await fetch("/api/site-views", { method: "POST" });
