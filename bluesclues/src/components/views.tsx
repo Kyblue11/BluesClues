@@ -7,9 +7,18 @@ export default function ViewCounter() {
   useEffect(() => {
     async function updateAndFetchViews() {
       if (process.env.NODE_ENV == "production") {
-        const res = await fetch("/api/site-views", { method: "POST" });
-        const data = await res.json();
-        setViewCount(data.views);
+        const hasBeenCounted = sessionStorage.getItem("viewCounted");
+
+        if (!hasBeenCounted) {
+          const res = await fetch("/api/site-views", { method: "POST" });
+          sessionStorage.setItem("viewCounted", "true");
+          const data = await res.json();
+          setViewCount(data.views);
+        } else {
+          const res = await fetch("/api/site-views", { method: "GET" });
+          const data = await res.json();
+          setViewCount(data.views);
+        }
       }
       else {
         setViewCount(-1); // devlopment
