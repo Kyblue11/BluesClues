@@ -6,6 +6,7 @@ import EducationRecord from "@/src/components/education";
 import WorkExpRecord from "@/src/components/workexperience";
 import SkillSection from "@/src/components/skills";
 import MyBlog from "@/src/components/blog";
+import BackToTop from "@/src/components/backtotop";
 import Footer from "@/src/components/footer";
 
 export default function Home() {
@@ -55,16 +56,14 @@ export default function Home() {
             <SkillSection></SkillSection>
           </section>
 
-          <section className="w-full mb-24">
+          <section id="BlogSection" className="w-full">
             <h2 className="var-h1">My Blog</h2>
             <ul className="flex flex-col gap-10">
               <MyBlog blogs={BLOGS}></MyBlog>
             </ul>
           </section>
 
-          <a href="#" className="block text-zinc-600 underline">
-            Return to Top
-          </a>
+          <BackToTop></BackToTop>
         </main>
       </div>
       <Footer></Footer>
