@@ -91,6 +91,13 @@ export const WORKEXPERIENCES: WorkExp[] = [
 
 export const BLOGS: Blog[] = [
   {
+    blog_slug: "unsupervised-ml",
+    blog_title: "Unsupervised Learning Case Study",
+    blog_date: "20th Oct 2025",
+    blog_media_desc:
+      "Visitor Travel Behaviour Segmentation and Satisfaction Modelling Using Machine Learning",
+  },
+  {
     blog_slug: "watch-api",
     blog_title: "Real-Time Heart Rate Streaming: From Watch to Web",
     blog_date: "1st Feb 2026",

@@ -2,6 +2,7 @@ import Footer from "@/src/components/footer";
 import { BLOGS } from "../../data";
 import WatchAPI from "./watch-api";
 import ChatBot from "./portfolio-ai";
+import UnsupervisedML from "./unsupervised-ml";
 
 // a promise that will eventually give me type <T>, i.e an object with a slug property
 export default async function BlogPage({
@@ -19,6 +20,8 @@ export default async function BlogPage({
     BlogContent = <WatchAPI />;
   } else if (slug === "portfolio-ai") {
     BlogContent = <ChatBot />;
+  } else if (slug === "unsupervised-ml") {
+    BlogContent = <UnsupervisedML />
   }
 
   return (
