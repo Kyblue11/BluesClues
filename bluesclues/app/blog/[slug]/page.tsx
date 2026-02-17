@@ -1,3 +1,4 @@
+import BackToHome from "@/src/components/backtohome";
 import Footer from "@/src/components/footer";
 import { BLOGS } from "../../data";
 import WatchAPI from "./watch-api";
@@ -21,7 +22,7 @@ export default async function BlogPage({
   } else if (slug === "portfolio-ai") {
     BlogContent = <ChatBot />;
   } else if (slug === "unsupervised-ml") {
-    BlogContent = <UnsupervisedML />
+    BlogContent = <UnsupervisedML />;
   }
 
   return (
@@ -30,7 +31,7 @@ export default async function BlogPage({
         <main className="flex flex-col items-center min-h-screen w-full max-w-3xl mx-auto py-12 px-4 bg-zinc-100">
           <section className="w-full mb-4">
             <div className="flex justify-start">
-              <a href="/">&lt; Back to home</a>
+              <BackToHome></BackToHome>
             </div>
           </section>
 
