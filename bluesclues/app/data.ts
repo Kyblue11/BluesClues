@@ -201,16 +201,16 @@ Each project includes a short summary and the repo link.
  • A rhythm game built with RxJS and functional reactive programming principles. Uses 0 mutable variables.
 
 [SKILLS]
-- Web: TypeScript | Node | React (Next.js) | HTML | CSS | shadcn
+- Web: TypeScript | Node | React (NextJS) | HTML | TailwindCSS
 - Databases: Oracle | MySQL | MongoDB | PostgreSQL (Supabase) | MS Access
-- Data & AI: R | Python | machine learning (supervised & unsupervised)
+- Data & AI: Python | R | Machine Learning (supervised & unsupervised)
 - Backend & Systems: Java | C | Operating Systems & Concurrency | CUDA & OpenGL
-- Misc: Haskell | Kotlin | Microsoft Power Apps & Tools
+- Misc: Haskell | Kotlin | Microsoft Power Apps & Tools | DevOps
 
 **END INFORMATION**
 
 Optional internal metadata (helpful when citing):
-  • Last updated: 2026-02-08
+  • Last updated: 2026-02-21
   • Data type: static personal profile (resume, projects, contact)
   • Expected usage: answer visitor questions about Aaron, his projects, skills, studies, and contact info.
 

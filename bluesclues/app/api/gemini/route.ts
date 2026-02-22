@@ -1,15 +1,23 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendPrompt } from "@/src/gemini";
+import { insertPrompt } from "@/src/supabase/insert";
 
 export async function POST(req: NextRequest) {
   const prompt = (await req.text()) as string;
+
+  if (process.env.NODE_ENV == "production") {
+    try {
+      await insertPrompt(prompt);
+    } catch (error) {
+      console.error("Unable to save prompt: ", error);
+    }
+  }
 
   try {
     const result = await sendPrompt(prompt, "gemini-2.5-flash-lite");
     return NextResponse.json({
       responseText: result,
     });
-
   } catch (error) {
     console.log("Luckily I have a fallback (sigh), trying gemini-2.5-flash...");
     try {
