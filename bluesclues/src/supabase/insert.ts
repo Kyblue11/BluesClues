@@ -1,5 +1,6 @@
 import { supabase } from "./supabase";
 import { HeartRateRow } from "../types/types";
+import { MetaData } from "../types/types";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
@@ -19,11 +20,11 @@ export async function upsertRecords(batch: HeartRateRow[]) {
   }
 }
 
-export async function insertPrompt(prompt: string) {
+export async function insertPrompt(prompt: string, metadata: MetaData) {
   const { error } = await supabase.from("prompt_questions").insert({
     created_at: dayjs().tz("Asia/Kuala_Lumpur").format("YYYY-MM-DD HH:mm:ss"),
     prompt_string: prompt,
-    metadata: "TODO",
+    metadata: metadata,
   });
   if (error) {
     throw new Error(`insertPrompt failed: ${error.message}`);
