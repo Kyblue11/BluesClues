@@ -75,9 +75,11 @@ export async function GET() {
     });
 
     const batch = normalizeRows(heartRateRecords);
-    await upsertRecords(batch);
-    await markFileProcessed(file.id, file.name!);
-    await purgeOldRecords(3);
+    await Promise.allSettled([
+      upsertRecords(batch),
+      markFileProcessed(file.id, file.name!),
+      purgeOldRecords(3),
+    ]);
 
     return NextResponse.json({
       inserted: batch.length,
