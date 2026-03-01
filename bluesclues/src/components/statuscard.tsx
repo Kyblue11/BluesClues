@@ -73,7 +73,7 @@ export default function StatusCard() {
             </p>
             <ul>
               <li>
-                <b>Contract:</b> Theodesis Sdn. Bhd.
+                <b>Part-time:</b> Theodesis Sdn. Bhd.
               </li>
               <li>
                 <b>Contract:</b> Pemborong Maju Bersatu Sdn. Bhd.
