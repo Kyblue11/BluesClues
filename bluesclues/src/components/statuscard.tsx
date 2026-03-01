@@ -73,10 +73,10 @@ export default function StatusCard() {
             </p>
             <ul>
               <li>
-                <b>Internship:</b> Theodesis Sdn Bhd.
+                <b>Contract:</b> Theodesis Sdn. Bhd.
               </li>
               <li>
-                <b>Contract:</b> Pemborong Maju Bersatu Sdn Bhd.
+                <b>Contract:</b> Pemborong Maju Bersatu Sdn. Bhd.
               </li>
               <li>
                 <b>Hackathon:</b> Chin Hin AI Hackathon 2026
