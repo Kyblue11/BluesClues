@@ -87,6 +87,15 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_desc:
       "Contributed to Telekom Malaysia NG999 as Power Automate DevOps developer and ML data engineer intern. Developed and deployed automated workflows to cloud environments via PA and ADO, integrated diverse data sources and deployed machine learning models in Vertica.",
   },
+  {
+    work_title: "AIOps Software Engineer",
+    work_company_name: "Theodesis Sdn Bhd.",
+    work_method: "Part-time, On-site",
+    work_location: "Subang Jaya, Selangor",
+    work_period: "Mar 2026 - Jun 2026",
+    work_desc:
+      "Developed and customized a workflow management solution for a Disaster Recovery System by building an MCP server for OpenText Vertica and integrating LibreChat frontend and RAG.",
+  },
 ];
 
 export const BLOGS: Blog[] = [
@@ -177,7 +186,12 @@ Response rules:
   • Test plan design, UAT/SIT/regression testing, defect tracking in JIRA; closed 150 tickets; performed daily status reports.
 
 - AIOps Software Engineer (Intern) / Theodesis Sdn Bhd / Hybrid / Petaling Jaya / Jan 2026 - Feb 2026
-  • Power Automate DevOps developer; ML data engineering tasks; deployed workflows and ML models; technologies: Power Automate, Postman, Azure DevOps, Python, Vertica.
+  • Power Automate DevOps developer; deployed workflows for automating manual Sprint and Logging tasks; technologies: Power Automate, Postman, Azure DevOps, Javascript.
+
+- AIOps Software Engineer (Part-time) / Theodesis Sdn Bhd / On-site / Subang Jaya / Mar 2026 - Jun 2026
+  • Database engineering, developed workflow management solution for Disaster Recovery Systems by building an MCP server for OpenText Vertica and integrating LibreChat frontend and RAG. 
+  • Technologies: Python, JavaScript, SQL, Vertica, Azure DevOps, AWS.
+
 
 [PROJECTS]
 Each project includes a short summary and the repo link.
@@ -201,8 +215,8 @@ Each project includes a short summary and the repo link.
  • A rhythm game built with RxJS and functional reactive programming principles. Uses 0 mutable variables.
 
 [SKILLS]
-- Web: TypeScript | Node | React (NextJS) | HTML | TailwindCSS
-- Databases: Oracle | MySQL | MongoDB | PostgreSQL (Supabase) | MS Access
+- Web: TypeScript | Node | React (NextJS, Vite) | HTML | TailwindCSS
+- Databases: Oracle | MySQL | MongoDB | PostgreSQL (Supabase) | Vertica | MS Access
 - Data & AI: Python | R | Machine Learning (supervised & unsupervised)
 - Backend & Systems: Java | C | Operating Systems & Concurrency | CUDA & OpenGL
 - Misc: Haskell | Kotlin | Microsoft Power Apps & Tools | DevOps
@@ -210,7 +224,7 @@ Each project includes a short summary and the repo link.
 **END INFORMATION**
 
 Optional internal metadata (helpful when citing):
-  • Last updated: 2026-02-21
+  • Last updated: 2026-03-08
   • Data type: static personal profile (resume, projects, contact)
   • Expected usage: answer visitor questions about Aaron, his projects, skills, studies, and contact info.
 
