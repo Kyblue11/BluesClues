@@ -86,9 +86,9 @@ export default function PortfolioAI() {
           would only consist of ~1030 words, which translates to around 1800
           tokens. Hence,{" "}
           <u>why not just feed this data into the LLM's system instruction</u>?
-          This way, each time a user sends a prompt query to the LLM model, the
-          system prepends a static prompt instruction (my knowledge source)
-          within its API call.
+          Similar to CAG, this way, each time a user sends a prompt query to the
+          LLM model, the system prepends a static prompt instruction (my
+          knowledge source) within its API call.
         </p>
         <p className="text-lg text-zinc-900 mb-2">
           This method is simpler, faster and just as effective as RAG when
