@@ -78,9 +78,6 @@ export default function StatusCard() {
               <li>
                 <b>Contract:</b> Pemborong Maju Bersatu Sdn. Bhd.
               </li>
-              <li>
-                <b>Hackathon:</b> Chin Hin AI Hackathon 2026
-              </li>
               <li></li>
             </ul>
           </div>
