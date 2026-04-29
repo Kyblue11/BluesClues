@@ -52,22 +52,13 @@ export const WORKEXPERIENCES: WorkExp[] = [
       "Helped developed Malaysia's first indie anime e-commerce platform to connect creators and fans. Key features include AI search and vendor community profiles using Next.js, Node.js, Supabase and deployed with Docker for scalability.",
   },
   {
-    work_title: "FIT1051 Class Assistant - Tutor",
+    work_title: "Class Assistant - Tutor",
     work_company_name: "Monash University Teaching Team",
     work_method: "Contract, On-Site",
     work_location: "Subang Jaya, Selangor",
-    work_period: "Mar 2025 - June 2025",
+    work_period: "Mar 2025 - Jun 2025; Jul 2025 - Oct 2025; Mar 2026 - Jun 2026",
     work_desc:
-      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java. I taught students Java, promoting disciplined coding practices and effective problem-solving for real-world programming challenges.",
-  },
-  {
-    work_title: "FIT2014 Class Assistant - Tutor",
-    work_company_name: "Monash University Teaching Team",
-    work_method: "Contract, On-Site",
-    work_location: "Subang Jaya, Selangor",
-    work_period: "Jul 2025 - Oct 2025",
-    work_desc:
-      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT2014 - Theory of Computation. Here, I assist the teaching team in tutorial sessions, as well as conduct online consultations, whilst help managing the Monash Forum for students. I covered theories such as finite state automata, Turing machines, P and NP-complete problems.",
+      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java, FIT2014 - Theory of Computation, and FIT2081 - Mobile Application Development. Responsible for conducting weekly tutorial sessions, assist in marking and interviews, hosting online consultations, answering online student forums, as well as planning weekly deliverables with the Monash Teaching Team.",
   },
   {
     work_title: "Partnership Distribution - Digital Transformation",
@@ -79,22 +70,22 @@ export const WORKEXPERIENCES: WorkExp[] = [
       "Worked on designing and executing test plans, managing end-to-end testing for mobile and web applications, and ensuring quality through defect tracking and reporting.",
   },
   {
-    work_title: "AIOps Software Engineer",
-    work_company_name: "Theodesis Sdn Bhd.",
-    work_method: "Internship, Hybrid",
-    work_location: "Petaling Jaya, Selangor",
-    work_period: "Jan 2026 - Feb 2026",
+    work_title: "Full Stack Developer",
+    work_company_name: "Pemborong Maju Bersatu Sdn Bhd.",
+    work_method: "Contract, Remote",
+    work_location: "Remote",
+    work_period: "Jan 2026 - April 2026",
     work_desc:
-      "Contributed to Telekom Malaysia NG999 as Power Automate DevOps developer and ML data engineer intern. Developed and deployed automated workflows to cloud environments via PA and ADO, integrated diverse data sources and deployed machine learning models in Vertica.",
+      "Built a recruitment automation system for PMBSB featuring AI-powered candidate scoring, multi-channel applicant ingestion (from Indeed, MyFutureJobs, direct Email), and a vacancy management dashboard interface for PMBSB's HR team."
   },
   {
     work_title: "AIOps Software Engineer",
     work_company_name: "Theodesis Sdn Bhd.",
-    work_method: "Part-time, On-site",
-    work_location: "Subang Jaya, Selangor",
-    work_period: "Mar 2026 - Jun 2026",
+    work_method: "Internship, Hybrid | Part-time, On-site",
+    work_location: "Petaling Jaya, Selangor",
+    work_period: "Jan 2026 - Jun 2026",
     work_desc:
-      "Developed and customized a workflow management solution for a Disaster Recovery System by building an MCP server for OpenText Vertica and integrating LibreChat frontend and RAG.",
+      "As an intern in Jan 2026 - Feb 2026, I contributed to Telekom Malaysia NG999 as a Power Automate DevOps developer and ML data engineer intern, developing and deploying automated workflows to cloud environments via Power Automate and Azure DevOps, integrating diverse data sources, and deploying machine learning models in Vertica. As a part-time engineer in Mar 2026 - Jun 2026, I developed and customized a workflow management solution for a Disaster Recovery System by building an MCP server for Bank Simpanan National, integrating the LibreChat frontend, various database sources and RAG.",
   },
 ];
 
@@ -152,7 +143,7 @@ Response rules:
 
 [EDUCATION]
 1) SPM — St. Michael's Institution, Ipoh (2017-2022)
-   • Results: 7A+, 2A, 1B+.
+   • Results: 7A+, 2A.
    • Top 1 in class and repeated top cohort ranking across multiple semesters.
    • Elective: Accountancy.
 
@@ -174,24 +165,26 @@ Response rules:
   • Features: AI search and vendor community profiles, Selenium & Puppeteer scraping, RAG, Gemini API and Llama RAG embeddings integration.
   • Responsibilities: transformed user queries into keywords to improve search; automated scraping; containerized infrastructure; Puppeteer execution.
 
-- FIT1051 Class Assistant (Tutor) / Monash University Teaching Team / Contract, On-Site / Subang Jaya / Mar 2025 - Jun 2025
-  • Taught Java and programming fundamentals; topics included OOP, polymorphism, abstract classes, interfaces, UML.
+- FIT1051, FIT2014, FIT2081 Class Assistant (Tutor) / Monash University Teaching Team / Contract, On-Site / Subang Jaya / Mar 2025 - Jun 2025; Jul 2025 - Oct 2025; Mar 2026 - Jun 2026
+  • Academic Mentoring (funded) Program targeting undergrad students enrolled in these units. 
+  • Responsible for conducting weekly tutorial sessions, assist in marking and interviews, hosting online consultations, answering online student forums, planning weekly deliverables with the Monash Teaching Team.
+  • FIT1051 (Mar 2025 - Jun 2025): taught Java and programming fundamentals; topics included OOP, polymorphism, abstract classes, factories, interfaces, UML.
+  • FIT2014 (Jul 2025 - Oct 2025): assisted with Theory of Computation tutorials; topics included finite automata, Turing machines, decidability, Quant, P / NP.
+  • FIT2081 (Mar 2026 - Jun 2026): taught students mobile application using Kotlin, Jetpack Compose, RoomDB and integrating external APIs; topics included DAO, MVVM architecture, Navigation Controllers, Factory and DAOs
   • Role earned via competitive selection (selected from 80+ candidates).
-
-- FIT2014 Class Assistant (Tutor) / Monash University Teaching Team / Contract, On-Site / Subang Jaya / Jul 2025 - Oct 2025
-  • Assisted with Theory of Computation tutorials, Monash forums and online consultations; topics included finite automata, Turing machines, P / NP.
-  • Role earned via competitive selection.
 
 - Partnership Distribution - Digital Transformation (Intern) / AIA Malaysia / On-Site / Kuala Lumpur / Nov 2025 - Dec 2025
   • Test plan design, UAT/SIT/regression testing, defect tracking in JIRA; closed 150 tickets; performed daily status reports.
+  
+- Full Stack Developer (Contract) / Pemborong Maju Bersatu Sdn Bhd / Remote / Jan 2026 - April 2026
+  • Built recruitment automation system for PMBSB, AI-powered candidate scoring (WSM), multi-channel applicant ingestion (from Indeed, MyFutureJobs, direct Email), and a vacancy management dashboard interface for PMBSB's HR team.
+  • Technologies: Next.js, Supabase, Railway, BeautifulSoup, Claude API. 
 
-- AIOps Software Engineer (Intern) / Theodesis Sdn Bhd / Hybrid / Petaling Jaya / Jan 2026 - Feb 2026
-  • Power Automate DevOps developer; deployed workflows for automating manual Sprint and Logging tasks; technologies: Power Automate, Postman, Azure DevOps, Javascript.
-
-- AIOps Software Engineer (Part-time) / Theodesis Sdn Bhd / On-site / Subang Jaya / Mar 2026 - Jun 2026
-  • Database engineering, developed workflow management solution for Disaster Recovery Systems by building an MCP server for OpenText Vertica and integrating LibreChat frontend and RAG. 
-  • Technologies: Python, JavaScript, SQL, Vertica, Azure DevOps, AWS.
-
+- AIOps Software Engineer (Intern | Part-time) / Theodesis Sdn Bhd / (Internship, Hybrid | Part-time, On-Site) / Petaling Jaya / Jan 2026 - Jun 2026
+  • Jan 2026 - Feb 2026: Power Automate DevOps developer intern; deployed workflows for automating manual Sprint and Logging tasks.
+  • Technologies: Power Automate, Postman, Azure DevOps, Javascript, SQL.
+  • Mar 2026 - Jun 2026: Database engineering; developed workflow management solution for Disaster Recovery Systems by building an MCP server for OpenText Vertica and integrating LibreChat frontend and RAG.
+  • Technologies: Python, JavaScript, SQL, Vertica, Azure DevOps, MongoDB.
 
 [PROJECTS]
 Each project includes a short summary and the repo link.
@@ -224,7 +217,7 @@ Each project includes a short summary and the repo link.
 **END INFORMATION**
 
 Optional internal metadata (helpful when citing):
-  • Last updated: 2026-03-08
+  • Last updated: 2026-04-29
   • Data type: static personal profile (resume, projects, contact)
   • Expected usage: answer visitor questions about Aaron, his projects, skills, studies, and contact info.
 

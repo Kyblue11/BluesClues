@@ -68,15 +68,15 @@ export default function StatusCard() {
           style={{ backfaceVisibility: "hidden", transform: "rotateX(180deg)" }}
         >
           <div>
-            <p className="text-xs text-zinc-400 text-center mb-4">
-              As of {dayjs().format("DD-MM-YYYY")}.
+            <p className="text-xs text-zinc-400 mb-4">
+              As of {dayjs().format("DD-MM-YYYY")}...
             </p>
             <ul>
               <li>
                 <b>Part-time:</b> Theodesis Sdn. Bhd.
               </li>
               <li>
-                <b>Contract:</b> Pemborong Maju Bersatu Sdn. Bhd.
+                {/* <b>Contract:</b> Pemborong Maju Bersatu Sdn. Bhd. */}
               </li>
               <li></li>
             </ul>
