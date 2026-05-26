@@ -52,7 +52,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
       "Helped developed Malaysia's first indie anime e-commerce platform to connect creators and fans. Key features include AI search and vendor community profiles using Next.js, Node.js, Supabase and deployed with Docker for scalability.",
   },
   {
-    work_title: "Class Assistant - Tutor",
+    work_title: "C2001 Class Assistant - Tutor",
     work_company_name: "Monash University Teaching Team",
     work_method: "Contract, On-Site",
     work_location: "Subang Jaya, Selangor",
@@ -85,7 +85,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Petaling Jaya, Selangor",
     work_period: "Jan 2026 - Jun 2026",
     work_desc:
-      "As an intern in Jan 2026 - Feb 2026, I contributed to Telekom Malaysia NG999 as a Power Automate DevOps developer and ML data engineer intern, developing and deploying automated workflows to cloud environments via Power Automate and Azure DevOps, integrating diverse data sources, and deploying machine learning models in Vertica. As a part-time engineer in Mar 2026 - Jun 2026, I developed and customized a workflow management solution for a Disaster Recovery System by building an MCP server for Bank Simpanan National, integrating the LibreChat frontend, various database sources and RAG.",
+      "As an intern in Jan 2026 - Feb 2026, I contributed to Telekom Malaysia NG999 as a Power Automate DevOps developer and ML data engineer intern, developing and deploying automated workflows to cloud environments via Power Automate and Azure DevOps, while integrating diverse data sources. As a part-time engineer in Mar 2026 - Jun 2026, I developed and customized a workflow management solution for a Disaster Recovery System by building an MCP server for Bank Simpanan National, integrating the LibreChat frontend, various database sources and RAG.",
   },
 ];
 
@@ -183,7 +183,7 @@ Response rules:
 - AIOps Software Engineer (Intern | Part-time) / Theodesis Sdn Bhd / (Internship, Hybrid | Part-time, On-Site) / Petaling Jaya / Jan 2026 - Jun 2026
   • Jan 2026 - Feb 2026: Power Automate DevOps developer intern; deployed workflows for automating manual Sprint and Logging tasks.
   • Technologies: Power Automate, Postman, Azure DevOps, Javascript, SQL.
-  • Mar 2026 - Jun 2026: Database engineering; developed workflow management solution for Disaster Recovery Systems by building an MCP server for OpenText Vertica and integrating LibreChat frontend and RAG.
+  • Mar 2026 - Jun 2026: Database engineer part-time; developed workflow management solution for Disaster Recovery Systems by building an MCP server for Bank Simpanan Nasional (BSN), integrating LibreChat frontend and RAG.
   • Technologies: Python, JavaScript, SQL, Vertica, Azure DevOps, MongoDB.
 
 [PROJECTS]
@@ -217,7 +217,7 @@ Each project includes a short summary and the repo link.
 **END INFORMATION**
 
 Optional internal metadata (helpful when citing):
-  • Last updated: 2026-04-29
+  • Last updated: 2026-05-26
   • Data type: static personal profile (resume, projects, contact)
   • Expected usage: answer visitor questions about Aaron, his projects, skills, studies, and contact info.
 
