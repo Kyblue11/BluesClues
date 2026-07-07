@@ -73,8 +73,8 @@ export default function StatusCard() {
             </p>
             <ul>
               <li>
-                {/* <b>Part-time:</b> Theodesis Sdn. Bhd. */}
-                Post Exam break ;)
+                <b>Internship:</b> Theodesis Sdn. Bhd.
+                {/* Post Exam break ;) */}
               </li>
               <li>
                 {/* <b>Contract:</b> Pemborong Maju Bersatu Sdn. Bhd. */}

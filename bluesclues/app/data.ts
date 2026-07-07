@@ -29,7 +29,7 @@ export const EDUCATIONS: Education[] = [
     edu_period: "Jul 2023 - Jun 2026",
     edu_role: "Bachelor of Computer Science",
     edu_desc:
-      "Recipient of the Monash High Achiever Award for academic excellence. Pursuing a Bachelor of Computer Science (Advanced Specialisaton), with additional emphasis on software engineering and business analytics through elective coursework. Expected to graduate by Sep 2026.",
+      "Recipient of the Monash High Achiever Award for academic excellence. Underwent Bachelor of Computer Science (Advanced Specialisaton), with additional emphasis on software engineering and business analytics through elective coursework. Completed June 2026.",
   },
   {
     edu_name: "Monash College",

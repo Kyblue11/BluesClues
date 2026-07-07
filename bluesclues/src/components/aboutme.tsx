@@ -3,7 +3,7 @@ export default function ABoutMe() {
     <>
       <ul className="flex flex-col gap-4">
         <p className="text-lg text-zinc-900 mb-10">
-          Currently residing in Damansara, Selangor. Completed my Bachelor of
+          Currently residing in Petaling Jaya, Selangor. Completed my Bachelor of
           Computer Science (Advanced CS Specialization) at Monash University.
           During free time, I build web apps, games and even desktop tools for
           productivity and fun!
