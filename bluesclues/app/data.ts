@@ -180,10 +180,12 @@ Response rules:
   • Built recruitment automation system for PMBSB, AI-powered candidate scoring (WSM), multi-channel applicant ingestion (from Indeed, MyFutureJobs, direct Email), and a vacancy management dashboard interface for PMBSB's HR team.
   • Technologies: Next.js, Supabase, Railway, BeautifulSoup, Claude API. 
 
-- AIOps Software Engineer (Intern | Part-time) / Theodesis Sdn Bhd / (Internship, Hybrid | Part-time, On-Site) / Petaling Jaya / Jan 2026 - Jun 2026
-  • Jan 2026 - Feb 2026: Power Automate DevOps developer intern; deployed workflows for automating manual Sprint and Logging tasks.
+- AIOps Software Engineer (Intern | Part-time) / Theodesis Sdn Bhd / On-Site / Petaling Jaya / Jan 2026 - Oct 2026
+  • Lead developer for Theodesis' internal AI-Hub platform. 
+  • Technologies: integration of AI Agents and MCP servers, Rocky Linux + Guacamole remote access, and automated CI/CD pipelines. 
+  • Power Automate DevOps developer; deployed workflows for automating manual Sprint and Logging tasks.
   • Technologies: Power Automate, Postman, Azure DevOps, Javascript, SQL.
-  • Mar 2026 - Jun 2026: Database engineer part-time; developed workflow management solution for Disaster Recovery Systems by building an MCP server for Bank Simpanan Nasional (BSN), integrating LibreChat frontend and RAG.
+  • Database engineer; developed workflow management solution for Disaster Recovery Systems by building an MCP server for Bank Simpanan Nasional (BSN), integrating LibreChat frontend and RAG.
   • Technologies: Python, JavaScript, SQL, Vertica, Azure DevOps, MongoDB.
 
 [PROJECTS]
@@ -217,7 +219,7 @@ Each project includes a short summary and the repo link.
 **END INFORMATION**
 
 Optional internal metadata (helpful when citing):
-  • Last updated: 2026-05-26
+  • Last updated: 2026-07-23
   • Data type: static personal profile (resume, projects, contact)
   • Expected usage: answer visitor questions about Aaron, his projects, skills, studies, and contact info.
 
