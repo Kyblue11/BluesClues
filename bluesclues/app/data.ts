@@ -76,7 +76,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Remote",
     work_period: "Jan 2026 - April 2026",
     work_desc:
-      "Built a recruitment automation system for PMBSB featuring AI-powered candidate scoring, multi-channel applicant ingestion (from Indeed, MyFutureJobs, direct Email), and a vacancy management dashboard interface for PMBSB's HR team."
+      "Built a recruitment automation system for PMBSB featuring AI-powered candidate scoring, multi-channel applicant ingestion (from Indeed, MyFutureJobs, direct Email), and a vacancy management dashboard interface for PMBSB's HR team.",
   },
   {
     work_title: "AIOps Software Engineer",
@@ -85,7 +85,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_location: "Petaling Jaya, Selangor",
     work_period: "Jan 2026 - Jun 2026",
     work_desc:
-      "As an intern in Jan 2026 - Feb 2026, I contributed to Telekom Malaysia NG999 as a Power Automate DevOps developer and ML data engineer intern, developing and deploying automated workflows to cloud environments via Power Automate and Azure DevOps, while integrating diverse data sources. As a part-time engineer in Mar 2026 - Jun 2026, I developed and customized a workflow management solution for a Disaster Recovery System by building an MCP server for Bank Simpanan National, integrating the LibreChat frontend, various database sources and RAG.",
+      "Lead developer for Theodesis' internal AI-Hub platform, integrating AI agents, MCP servers, Rocky Linux + Guacamole remote access and automated CI/CD pipelines. Also developed and deployed automated workflows for Telekom Malaysia NG999 using Power Automate (automated manual Sprint and Logging tasks). Finally, helped build and customize a workflow management solution for a Disaster Recovery System by developing an MCP server for Bank Simpanan Nasional (BSN), integrating the LibreChat frontend with multiple database sources and RAG.",
   },
 ];
 
