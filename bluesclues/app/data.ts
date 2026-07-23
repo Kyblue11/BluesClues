@@ -83,7 +83,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_company_name: "Theodesis Sdn Bhd.",
     work_method: "Internship, Hybrid | Part-time, On-site",
     work_location: "Petaling Jaya, Selangor",
-    work_period: "Jan 2026 - Jun 2026",
+    work_period: "Jan 2026 - Present",
     work_desc:
       "Lead developer for Theodesis' internal AI-Hub platform, integrating AI agents, MCP servers, Rocky Linux + Guacamole remote access and automated CI/CD pipelines. Also developed and deployed automated workflows for Telekom Malaysia NG999 using Power Automate (automated manual Sprint and Logging tasks). Finally, helped build and customize a workflow management solution for a Disaster Recovery System by developing an MCP server for Bank Simpanan Nasional (BSN), integrating the LibreChat frontend with multiple database sources and RAG.",
   },
