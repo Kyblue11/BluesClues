@@ -18,7 +18,7 @@ export default function EducationRecord({educations}: {educations: Education[]})
             <span className="text-xs text-zinc-400">{edu.edu_location}</span>
           </div>
           {edu.edu_desc && (
-            <p className="var-h5">{edu.edu_desc}</p>
+            <p className="var-h5 text-justify">{edu.edu_desc}</p>
           )}
         </li>
       ))}

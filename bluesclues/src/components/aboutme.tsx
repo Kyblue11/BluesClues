@@ -2,7 +2,7 @@ export default function ABoutMe() {
   return (
     <>
       <ul className="flex flex-col gap-4">
-        <p className="text-lg text-zinc-900 mb-10">
+        <p className="text-lg text-zinc-900 text-justify mb-10">
           Currently residing in Petaling Jaya, Selangor. Completed my Bachelor of
           Computer Science (Advanced CS Specialization) at Monash University.
           During free time, I build web apps, games and even desktop tools for
