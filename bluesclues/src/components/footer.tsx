@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="flex flex-col items-center">
         <div className="max-w-2xl text-center text-zinc-600">
           <p>
-            Coded entirely by hand. All rights reserved (me).
+            Coded entirely by hand (No AI). All rights reserved (me).
           </p>
           <a href="https://github.com/Kyblue11/BluesClues" target="_blank">
             <p className="text-center underline"> Source code to this webpage</p>

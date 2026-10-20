@@ -56,7 +56,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_company_name: "Monash University Teaching Team",
     work_method: "Contract, On-Site",
     work_location: "Subang Jaya, Selangor",
-    work_period: "Mar 2025 - Jun 2025; Jul 2025 - Oct 2025; Mar 2026 - Jun 2026; Jul 2026 - Nov 2026",
+    work_period: "Mar 2025 - Nov 2026",
     work_desc:
       "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java, FIT2014 - Theory of Computation, and FIT2081 - Mobile Application Development. Responsible for conducting weekly tutorial sessions, assist in marking and interviews, hosting online consultations, answering online student forums, as well as planning weekly deliverables with the Monash Teaching Team. Currently a Sessional Marker (FIT2102 Teaching Team) for student assignments. ",
   },
