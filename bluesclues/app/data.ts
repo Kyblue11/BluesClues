@@ -56,9 +56,9 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_company_name: "Monash University Teaching Team",
     work_method: "Contract, On-Site",
     work_location: "Subang Jaya, Selangor",
-    work_period: "Mar 2025 - Jun 2025; Jul 2025 - Oct 2025; Mar 2026 - Jun 2026",
+    work_period: "Mar 2025 - Jun 2025; Jul 2025 - Oct 2025; Mar 2026 - Jun 2026; Jul 2026 - Nov 2026",
     work_desc:
-      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java, FIT2014 - Theory of Computation, and FIT2081 - Mobile Application Development. Responsible for conducting weekly tutorial sessions, assist in marking and interviews, hosting online consultations, answering online student forums, as well as planning weekly deliverables with the Monash Teaching Team. Currently a Sessional Marker (FIT2081 Teaching Team) for student assignments. ",
+      "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java, FIT2014 - Theory of Computation, and FIT2081 - Mobile Application Development. Responsible for conducting weekly tutorial sessions, assist in marking and interviews, hosting online consultations, answering online student forums, as well as planning weekly deliverables with the Monash Teaching Team. Currently a Sessional Marker (FIT2102 Teaching Team) for student assignments. ",
   },
   {
     work_title: "Partnership Distribution - Digital Transformation",
@@ -83,7 +83,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_company_name: "Theodesis Sdn Bhd.",
     work_method: "Internship, Hybrid | Part-time, On-site",
     work_location: "Petaling Jaya, Selangor",
-    work_period: "Jan 2026 - Present",
+    work_period: "Jan 2026 - Oct 2026",
     work_desc:
       "Lead developer for Theodesis' internal AI-Hub platform, integrating AI agents, MCP servers, Rocky Linux + Guacamole remote access and automated CI/CD pipelines. Also developed and deployed automated workflows for Telekom Malaysia NG999 using Power Automate (automated manual Sprint and Logging tasks). Finally, helped build and customize a workflow management solution for a Disaster Recovery System by developing an MCP server for Bank Simpanan Nasional (BSN), integrating the LibreChat frontend with multiple database sources and RAG.",
   },
@@ -154,7 +154,7 @@ Response rules:
    • Tutor / peer mentor for Applied Mathematics (MUF0051 S2 2022).
 
 3) Undergraduate — Monash University Malaysia, Bachelor of Computer Science (Advanced) (2023-2026)
-   • Current CGPA: 3.97.
+   • Final grade: WAM = 88.00; CGPA: 3.98.
    • Received Monash High Achiever Award 2023.
    • Focus: software engineering and business analytics through electives.
 
@@ -165,14 +165,14 @@ Response rules:
   • Features: AI search and vendor community profiles, Selenium & Puppeteer scraping, RAG, Gemini API and Llama RAG embeddings integration.
   • Responsibilities: transformed user queries into keywords to improve search; automated scraping; containerized infrastructure; Puppeteer execution.
 
-- FIT1051, FIT2014, FIT2081 Class Assistant (Tutor) & Sessional Marker / Monash University Teaching Team / Contract, On-Site / Subang Jaya / Mar 2025 - Jun 2025; Jul 2025 - Oct 2025; Mar 2026 - Jun 2026, Jun 2026 - Present
+- FIT1051, FIT2014, FIT2081 Class Assistant (Tutor) & Sessional Marker / Monash University Teaching Team / Contract, On-Site / Subang Jaya / Mar 2025 - Jun 2025; Jul 2025 - Oct 2025; Mar 2026 - Jun 2026, Jul 2026 - Nov 2026
   • Academic Mentoring (funded) Program targeting undergrad students enrolled in these units. 
   • Responsible for conducting weekly tutorial sessions, assist in marking and interviews, hosting online consultations, answering online student forums, planning weekly deliverables with the Monash Teaching Team.
   • FIT1051 (Mar 2025 - Jun 2025): taught Java and programming fundamentals; topics included OOP, polymorphism, abstract classes, factories, interfaces, UML.
   • FIT2014 (Jul 2025 - Oct 2025): assisted with Theory of Computation tutorials; topics included finite automata, Turing machines, decidability, Quant, P / NP.
   • FIT2081 (Mar 2026 - Jun 2026): taught students mobile application using Kotlin, Jetpack Compose, RoomDB and integrating external APIs; topics included DAO, MVVM architecture, Navigation Controllers, Factory and DAOs
   • Role earned via competitive selection (selected from 80+ candidates).
-  • FIT2081 (Jun 2026 - Nov 2026): Sessional marker (Teaching Team) for student assignments. 
+  • FIT2102 (Jul 2026 - Nov 2026): Sessional marker (FIT2102 Teaching Team) for student assignments. 
 
 - Partnership Distribution - Digital Transformation (Intern) / AIA Malaysia / On-Site / Kuala Lumpur / Nov 2025 - Dec 2025
   • Test plan design, UAT/SIT/regression testing, defect tracking in JIRA; closed 150 tickets; performed daily status reports.
