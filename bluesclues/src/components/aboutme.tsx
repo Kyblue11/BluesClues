@@ -3,10 +3,10 @@ export default function ABoutMe() {
     <>
       <ul className="flex flex-col gap-4">
         <p className="text-lg text-zinc-900 text-justify mb-10">
-          Currently residing in Petaling Jaya, Selangor. Completed my Bachelor of
+          Currently residing in Cyberjaya, Selangor. Completed my Bachelor of
           Computer Science (Advanced CS Specialization) at Monash University.
-          During free time, I build web apps, games and even desktop tools for
-          productivity and fun!
+          Currently working as an AI Engineer. During free time, I build web
+          apps, games and even desktop tools for productivity and fun!
         </p>
       </ul>
 

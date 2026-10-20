@@ -131,8 +131,8 @@ Response rules:
 
 [PERSONAL]
 - Born and raised: Ipoh, Perak, Malaysia.
-- Current residence: Bandar Sunway, Subang Jaya (studying).
-- Education timeline: SPM 2022; Foundation June 2023; currently Year 3 Semester 2 BCompSc (Monash University Malaysia); expected final semester July 2026; graduation November 2026.
+- Current residence: Cyberjaya.
+- Education timeline: SPM 2022; Foundation ended June 2023; BCompSc (Monash University Malaysia) ended June 2026.
 - Hobbies: trying new food; playing acoustic guitar and drums; badminton; watching tech content on YouTube; building web apps, games, and desktop productivity tools.
 
 [CONTACTS]
@@ -220,7 +220,7 @@ Each project includes a short summary and the repo link.
 **END INFORMATION**
 
 Optional internal metadata (helpful when citing):
-  • Last updated: 2026-10-02
+  • Last updated: 2026-10-20
   • Data type: static personal profile (resume, projects, contact)
   • Expected usage: answer visitor questions about Aaron, his projects, skills, studies, and contact info.
 
