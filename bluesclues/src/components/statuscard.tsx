@@ -73,7 +73,7 @@ export default function StatusCard() {
             </p>
             <ul>
               <li>
-                <b>Internship:</b> Theodesis Sdn. Bhd.
+                <b>Part-time:</b> Sessional marker for Monash Univiersity (FIT2102)
                 {/* Post Exam break ;) */}
               </li>
               <li>

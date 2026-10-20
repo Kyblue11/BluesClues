@@ -52,7 +52,7 @@ export const WORKEXPERIENCES: WorkExp[] = [
       "Helped developed Malaysia's first indie anime e-commerce platform to connect creators and fans. Key features include AI search and vendor community profiles using Next.js, Node.js, Supabase and deployed with Docker for scalability.",
   },
   {
-    work_title: "C2001 Class Assistant - Tutor",
+    work_title: "C2001 Teaching Assistant - Tutor",
     work_company_name: "Monash University Teaching Team",
     work_method: "Contract, On-Site",
     work_location: "Subang Jaya, Selangor",
@@ -220,7 +220,7 @@ Each project includes a short summary and the repo link.
 **END INFORMATION**
 
 Optional internal metadata (helpful when citing):
-  • Last updated: 2026-07-23
+  • Last updated: 2026-10-02
   • Data type: static personal profile (resume, projects, contact)
   • Expected usage: answer visitor questions about Aaron, his projects, skills, studies, and contact info.
 
