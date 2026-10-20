@@ -10,7 +10,7 @@ export default function BackToTop() {
 
   return (
     <button
-      className="cursor-pointer text-zinc-600 underline mt-24"
+      className="cursor-pointer text-zinc-600 mt-24 hover:text-blue-600 underline"
       onClick={() => scrollTop()}
     >
       Return to top

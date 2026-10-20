@@ -43,15 +43,6 @@ export const EDUCATIONS: Education[] = [
 
 export const WORKEXPERIENCES: WorkExp[] = [
   {
-    work_title: "Full Stack Developer",
-    work_company_name: "Anilabs",
-    work_method: "Contract, On-Site",
-    work_location: "Subang Jaya, Selangor",
-    work_period: "Dec 2024 - Fec 2025",
-    work_desc:
-      "Helped developed Malaysia's first indie anime e-commerce platform to connect creators and fans. Key features include AI search and vendor community profiles using Next.js, Node.js, Supabase and deployed with Docker for scalability.",
-  },
-  {
     work_title: "C2001 Teaching Assistant - Tutor",
     work_company_name: "Monash University Teaching Team",
     work_method: "Contract, On-Site",
@@ -59,6 +50,24 @@ export const WORKEXPERIENCES: WorkExp[] = [
     work_period: "Mar 2025 - Nov 2026",
     work_desc:
       "Academic Mentoring (funded) Program targeting undergrad students enrolled in FIT1051 - Programming Fundamentals in Java, FIT2014 - Theory of Computation, and FIT2081 - Mobile Application Development. Responsible for conducting weekly tutorial sessions, assist in marking and interviews, hosting online consultations, answering online student forums, as well as planning weekly deliverables with the Monash Teaching Team. Currently a Sessional Marker (FIT2102 Teaching Team) for student assignments. ",
+  },
+    {
+    work_title: "AIOps Software Engineer",
+    work_company_name: "Theodesis Sdn. Bhd.",
+    work_method: "Internship, Hybrid | Part-time, On-site",
+    work_location: "Petaling Jaya, Selangor",
+    work_period: "Jan 2026 - Oct 2026",
+    work_desc:
+      "Lead developer for Theodesis' internal AI-Hub platform, integrating AI agents, MCP servers, Rocky Linux + Guacamole remote access and automated CI/CD pipelines. Also developed and deployed automated workflows for Telekom Malaysia NG999 using Power Automate (automated manual Sprint and Logging tasks). Finally, helped build and customize a workflow management solution for a Disaster Recovery System by developing an MCP server for Bank Simpanan Nasional (BSN), integrating the LibreChat frontend with multiple database sources and RAG.",
+  },
+  {
+    work_title: "Full Stack Developer",
+    work_company_name: "Pemborong Maju Bersatu Sdn Bhd.",
+    work_method: "Contract, Remote",
+    work_location: "Remote",
+    work_period: "Jan 2026 - April 2026",
+    work_desc:
+      "Built a recruitment automation system for PMBSB featuring AI-powered candidate scoring, multi-channel applicant ingestion (from Indeed, MyFutureJobs, direct Email), and a vacancy management dashboard interface for PMBSB's HR team.",
   },
   {
     work_title: "Partnership Distribution - Digital Transformation",
@@ -71,31 +80,22 @@ export const WORKEXPERIENCES: WorkExp[] = [
   },
   {
     work_title: "Full Stack Developer",
-    work_company_name: "Pemborong Maju Bersatu Sdn Bhd.",
-    work_method: "Contract, Remote",
-    work_location: "Remote",
-    work_period: "Jan 2026 - April 2026",
+    work_company_name: "Anilabs",
+    work_method: "Contract, On-Site",
+    work_location: "Subang Jaya, Selangor",
+    work_period: "Dec 2024 - Feb 2025",
     work_desc:
-      "Built a recruitment automation system for PMBSB featuring AI-powered candidate scoring, multi-channel applicant ingestion (from Indeed, MyFutureJobs, direct Email), and a vacancy management dashboard interface for PMBSB's HR team.",
-  },
-  {
-    work_title: "AIOps Software Engineer",
-    work_company_name: "Theodesis Sdn Bhd.",
-    work_method: "Internship, Hybrid | Part-time, On-site",
-    work_location: "Petaling Jaya, Selangor",
-    work_period: "Jan 2026 - Oct 2026",
-    work_desc:
-      "Lead developer for Theodesis' internal AI-Hub platform, integrating AI agents, MCP servers, Rocky Linux + Guacamole remote access and automated CI/CD pipelines. Also developed and deployed automated workflows for Telekom Malaysia NG999 using Power Automate (automated manual Sprint and Logging tasks). Finally, helped build and customize a workflow management solution for a Disaster Recovery System by developing an MCP server for Bank Simpanan Nasional (BSN), integrating the LibreChat frontend with multiple database sources and RAG.",
+      "Helped developed Malaysia's first indie anime e-commerce platform to connect creators and fans. Key features include AI search and vendor community profiles using Next.js, Node.js, Supabase and deployed with Docker for scalability.",
   },
 ];
 
 export const BLOGS: Blog[] = [
   {
-    blog_slug: "unsupervised-ml",
-    blog_title: "Unsupervised Learning Case Study",
-    blog_date: "20th Oct 2025",
+    blog_slug: "portfolio-ai",
+    blog_title: "Portfolio Chatbot",
+    blog_date: "8th Feb 2026",
     blog_media_desc:
-      "Visitor Travel Behaviour Segmentation and Satisfaction Modelling Using Machine Learning",
+      "Ask me about my history, skills, projects, hobbies and CS journey",
   },
   {
     blog_slug: "watch-api",
@@ -104,11 +104,11 @@ export const BLOGS: Blog[] = [
     blog_media_desc: "How I Connected My Smartwatch to a Live Web Dashboard",
   },
   {
-    blog_slug: "portfolio-ai",
-    blog_title: "Portfolio Chatbot",
-    blog_date: "8th Feb 2026",
+    blog_slug: "unsupervised-ml",
+    blog_title: "Unsupervised Learning Case Study",
+    blog_date: "20th Oct 2025",
     blog_media_desc:
-      "Ask me about my history, skills, projects, hobbies and CS journey",
+      "Visitor Travel Behaviour Segmentation and Satisfaction Modelling Using Machine Learning",
   },
 ];
 

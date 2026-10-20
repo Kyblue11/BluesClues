@@ -7,7 +7,7 @@ export default function Footer() {
             Coded entirely by hand (No AI). All rights reserved (me).
           </p>
           <a href="https://github.com/Kyblue11/BluesClues" target="_blank">
-            <p className="text-center underline"> Source code to this webpage</p>
+            <p className="text-center  hover:text-blue-600 underline"> Source code to this webpage</p>
           </a>
         </div>
       </div>

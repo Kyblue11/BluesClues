@@ -11,7 +11,7 @@ export default function ABoutMe() {
       </ul>
 
       <div className="flex justify-end">
-        <a
+        <a className="hover:text-blue-600 hover:underline"
           href="https://www.linkedin.com/in/aaron-lam-609bb1309/"
           target="_blank"
         >
@@ -19,12 +19,16 @@ export default function ABoutMe() {
         </a>
       </div>
       <div className="flex justify-end">
-        <a href="https://github.com/Kyblue11?tab=repositories" target="_blank">
+        <a className="hover:text-blue-600 hover:underline"
+        href="https://github.com/Kyblue11?tab=repositories" 
+        target="_blank">
           Check out my Github projects!
         </a>
       </div>
       <div className="flex justify-end">
-        <a href="https://www.youtube.com/@kyblue11/videos" target="_blank">
+        <a className="hover:text-blue-600 hover:underline"
+        href="https://www.youtube.com/@kyblue11/videos" 
+        target="_blank">
           See me talking!
         </a>
       </div>
